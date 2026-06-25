@@ -1,0 +1,1308 @@
+[
+  {
+    "id": "company_about_tripigo_tales",
+    "type": "company_info",
+    "title": "About Tripigo Tales – Tours & Travels",
+    "metadata": {
+      "category": "Company Overview",
+      "subcategory": "About"
+    },
+    "content": "At Tripigo Tales, we believe that travel is more than just visiting destinations — it's about experiencing cultures, creating lifelong memories, and collecting stories worth sharing. Founded with a passion for exploration and personalized travel planning, Tripigo Tales is dedicated to designing seamless, memorable, and affordable travel experiences across India. Whether it's a romantic honeymoon in the mountains, an adventurous road trip to Spiti, a relaxing beach holiday in Goa, or a luxury getaway — we turn your travel dreams into reality. Tripigo Tales is a trusted travel partner specializing in customized domestic tour packages. From family holidays and honeymoons to adventure and spiritual journeys, we design memorable travel experiences with transparent pricing, reliable service, and personalized support. We have been leading the way in small group adventures for over 4+ years, redefining the future of travel. We stay connected before, during and after your trip. We provide exclusive travel offers designed just for you. We provide hassle-free bookings — that's why travelers choose Tripigo Tales."
+  },
+  {
+    "id": "company_contact_info",
+    "type": "contact_info",
+    "title": "Tripigo Tales – Contact Information",
+    "metadata": {
+      "category": "Contact",
+      "office_location": "Shivaji Nagar, Pune, MH",
+      "phone": "+91-7743963339",
+      "email": "info@tripigotales.com"
+    },
+    "content": "Tripigo Tales – Tours & Travels Contact Details. Office Location: Shivaji Nagar, Pune, Maharashtra. Phone Number: +91-7743963339. Email Address: info@tripigotales.com. Website: https://tripigotales.com. Reach out for customized domestic tour packages, booking inquiries, travel support, and exclusive offers."
+  },
+  {
+    "id": "company_booking_process",
+    "type": "company_info",
+    "title": "How to Book with Tripigo Tales",
+    "metadata": {
+      "category": "Booking Process"
+    },
+    "content": "Booking a tour with Tripigo Tales is simple and hassle-free. Step 1 – Search Your Destination: Enter your desired location, travel dates, and preferences to explore available options. Step 2 – Select Your Package: Browse curated offers and choose the travel package that suits your needs and budget. Step 3 – Complete Your Booking: Finalize your booking with our team. We provide transparent pricing, reliable service, and personalized support throughout the process. Available tour durations range from 2D/1N to 11D/10N, covering a wide variety of destinations across India."
+  },
+  {
+    "id": "testimonials_customer_reviews",
+    "type": "testimonials",
+    "title": "Customer Testimonials – Tripigo Tales",
+    "metadata": {
+      "category": "Reviews",
+      "average_sentiment": "Positive"
+    },
+    "content": "Customer Reviews and Testimonials for Tripigo Tales: 1. Rahul Singh: 'We booked our Spiti Valley group tour through Tripigo Tales and it was an unforgettable experience.' 2. Priya Sharma: 'Tripigo Tales planned our Kashmir trip perfectly! From hotel stays to local sightseeing, everything was smooth and well-organized. The team was always available for support. Highly recommended for stress-free travel planning!' 3. Neha & Arjun Patel: 'Our honeymoon package to Kerala was beautifully curated by Tripigo Tales. Every detail was thoughtfully planned, and we didn't have to worry about anything. Truly a memorable and hassle-free experience!' Tripigo Tales is highly rated for its organized travel logistics, attentive customer support, and well-planned honeymoon and group tour packages."
+  },
+  {
+    "id": "tour_soulful_escape_leh_ladakh",
+    "type": "tour",
+    "title": "Soulful Escape to Leh-Ladakh",
+    "destination": "Ladakh",
+    "duration": "5D/4N",
+    "price": "17100",
+    "original_price": "19000",
+    "discount": "10% OFF",
+    "metadata": {
+      "category": "Adventure",
+      "package_type": "Adventure",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Ladakh",
+      "duration": "5D/4N",
+      "price": "17100",
+      "original_price": "19000",
+      "discount_percent": 10
+    },
+    "content": "Tour: Soulful Escape to Leh-Ladakh. Destination: Ladakh. Duration: 5D/4N. Price: ₹17,100/pax (Original: ₹19,000) [10% OFF]. Rating: 5/5 stars. Summary: Explore the breathtaking landscapes of Ladakh, a destination known for its rugged mountains, scenic valleys, and rich Tibetan culture. This tour begins in Leh, where you will visit famous attractions such as the Shanti Stupa, Leh Palace, and the vibrant local market. Journey through the surreal high-altitude terrain to witness the world-famous Pangong Tso Lake, whose waters shift between shades of sapphire and turquoise throughout the day. Seek blessings at the ancient Hemis and Thiksey monasteries, and marvel at the engineering wonder of Magnetic Hill. Each day unfolds a new layer of Ladakh's raw natural beauty, spiritual depth, and timeless Tibetan culture, making this a journey that touches the soul long after you return home. Key Attractions: Shanti Stupa, Leh Palace, local market, Pangong Tso Lake, Hemis Monastery, Thiksey Monastery, Magnetic Hill."
+  },
+  {
+    "id": "tour_ladakh_legends_expedition",
+    "type": "tour",
+    "title": "Ladakh Legends Expedition",
+    "destination": "Ladakh",
+    "duration": "7D/6N",
+    "price": "23745",
+    "metadata": {
+      "category": "Adventure",
+      "package_type": "Adventure",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Ladakh",
+      "duration": "7D/6N",
+      "price": "23745",
+      "discount_percent": 0
+    },
+    "content": "Tour: Ladakh Legends Expedition. Destination: Ladakh. Duration: 7D/6N. Price: ₹23,745/pax. Rating: 5/5 stars. Summary: Explore the stunning Nubra Valley, where you can ride a double-humped Bactrian camel at the Hunder Sand Dunes and enjoy a peaceful night camping by the Shyok River under a starry sky. Witness the breathtaking Pangong Lake, famous for its ever-changing shades of electric blue, and visit the centuries-old monasteries of Thiksey and Diskit that stand as timeless sentinels of Tibetan Buddhist heritage. Cross the legendary Khardung La, one of the world's highest motorable passes, and soak in panoramic views of the Karakoram Range. This expedition blends adventure, spirituality, and natural wonder into an unforgettable Ladakh experience designed for every kind of traveler. Key Attractions: Nubra Valley, Hunder Sand Dunes (Bactrian camel ride), Shyok River camping, Pangong Lake, Thiksey Monastery, Diskit Monastery, Khardung La Pass, Karakoram Range views."
+  },
+  {
+    "id": "tour_andaman_family_retreat",
+    "type": "tour",
+    "title": "Andaman Family Retreat",
+    "destination": "Andaman and Nicobar",
+    "duration": "8D/7N",
+    "price": "57645",
+    "metadata": {
+      "category": "Family",
+      "package_type": "Family",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Andaman and Nicobar",
+      "duration": "8D/7N",
+      "price": "57645",
+      "discount_percent": 0
+    },
+    "content": "Tour: Andaman Family Retreat. Destination: Andaman and Nicobar. Duration: 8D/7N. Price: ₹57,645/pax. Rating: 5/5 stars. Summary: Indulge in an extraordinary island escape with this luxurious tour of the breathtaking Andaman Islands, where pristine white-sand beaches, lush tropical landscapes, and crystal-clear turquoise waters await at every turn. Explore the historic Cellular Jail and attend its powerful sound-and-light show, snorkel through vibrant coral gardens at Elephant Beach, and take a glass-bottom boat ride over thriving marine ecosystems. Families will delight in the emerald forests of Baratang Island, the serene sands of Radhanagar Beach, and the exciting water sports at Neil Island. With carefully chosen family-friendly accommodations and expertly guided excursions, this retreat offers the ideal blend of relaxation, education, and island adventure for every member of the family. Key Attractions: Cellular Jail (sound and light show), Elephant Beach snorkeling, glass-bottom boat ride, Baratang Island forests, Radhanagar Beach, Neil Island water sports. Ideal for: Families seeking island relaxation, adventure, and discovery."
+  },
+  {
+    "id": "tour_andaman_couples_escape",
+    "type": "tour",
+    "title": "Andaman Couple's Escape",
+    "destination": "Andaman and Nicobar",
+    "duration": "7D/6N",
+    "price": "30999",
+    "metadata": {
+      "category": "Couple",
+      "package_type": "Couple",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Andaman and Nicobar",
+      "duration": "7D/6N",
+      "price": "30999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Andaman Couple's Escape. Destination: Andaman and Nicobar. Duration: 7D/6N. Price: ₹30,999/pax. Rating: 5/5 stars. Summary: Discover the enchanting beauty of the Andaman Islands, a romantic tropical paradise where pristine beaches, turquoise waters, lush forests, and serene island landscapes create the perfect setting for love to flourish. Spend dreamy mornings on the award-winning Radhanagar Beach, enjoy thrilling underwater adventures through scuba diving and sea walking, and watch spectacular sunsets from the shores of Havelock Island. Evenings can be spent with candlelit dinners by the ocean, while peaceful ferry rides between islands offer intimate moments amid breathtaking scenery. This escape is thoughtfully crafted to celebrate togetherness and create romantic memories that will last a lifetime. Key Attractions: Radhanagar Beach, scuba diving, sea walking, Havelock Island sunset, candlelit beach dinners, island ferry rides. Ideal for: Couples and honeymooners."
+  },
+  {
+    "id": "tour_divine_journey_south_india",
+    "type": "tour",
+    "title": "Divine Journey through South India",
+    "destination": "Karnataka",
+    "duration": "11D/10N",
+    "price": "24999",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Spiritual",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Karnataka",
+      "duration": "11D/10N",
+      "price": "24999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Divine Journey through South India. Destination: Karnataka / South India (Tirupati, Trivandrum, Madurai, Rameshwaram). Duration: 11D/10N. Price: ₹24,999/pax. Rating: 5/5 stars. Summary: Embark on a divine journey across South India, exploring some of the most serene and spiritually significant temples in the country. From the sacred hills of Tirupati to the coastal charm of Trivandrum, this tour offers an immersive experience in timeless Dravidian architecture, age-old devotional traditions, and India's rich religious heritage. Stand in awe before the magnificent Meenakshi Amman Temple in Madurai, seek blessings at the legendary Padmanabhaswamy Temple, and witness the sacred rituals at Rameshwaram on the shores of the Indian Ocean. Each destination on this journey resonates with spiritual energy and cultural depth, offering pilgrims and heritage travelers alike an experience that is both humbling and deeply fulfilling. Key Attractions: Tirupati Sri Venkateswara Temple, Meenakshi Amman Temple (Madurai), Padmanabhaswamy Temple (Trivandrum), Rameshwaram Temple. Ideal for: Pilgrims, spiritual travelers, heritage enthusiasts."
+  },
+  {
+    "id": "tour_royal_rajasthan_family_expedition",
+    "type": "tour",
+    "title": "Royal Rajasthan Expedition for Family",
+    "destination": "Rajasthan",
+    "duration": "8D/7N",
+    "price": "19999",
+    "metadata": {
+      "category": "Family",
+      "package_type": "Family",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Rajasthan",
+      "duration": "8D/7N",
+      "price": "19999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Royal Rajasthan Expedition for Family. Destination: Rajasthan. Duration: 8D/7N. Price: ₹19,999/pax. Rating: 5/5 stars. Summary: Experience the royal essence of Rajasthan on this memorable family journey through the Land of the Kings. From magnificent forts and grand palaces to vibrant bazaars and golden deserts, every corner of this expedition is thoughtfully designed to captivate travelers of all ages. Explore the magnificent Amber Fort in Jaipur, wander through the narrow blue lanes of Jodhpur's old city, and sail across the shimmering lakes of Udaipur on a royal boat ride. Enjoy a thrilling camel safari at the sand dunes of Jaisalmer and spend evenings around a bonfire with folk music and dance performances. This royal family adventure promises a beautiful blend of history, culture, excitement, and togetherness. Key Attractions: Amber Fort (Jaipur), Jodhpur Blue City lanes, Udaipur lake boat ride, Jaisalmer camel safari, desert camp with folk performances. Ideal for: Families with children of all ages."
+  },
+  {
+    "id": "tour_munnar_misty_love_trail",
+    "type": "tour",
+    "title": "Munnar Misty Love Trail",
+    "destination": "Kerala",
+    "duration": "4D/3N",
+    "price": "9999",
+    "metadata": {
+      "category": "Couple",
+      "package_type": "Couple",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Kerala",
+      "duration": "4D/3N",
+      "price": "9999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Munnar Misty Love Trail. Destination: Kerala (Munnar). Duration: 4D/3N. Price: ₹9,999/pax. Rating: 5/5 stars. Summary: Embark on a romantic getaway through the lush green landscapes of Munnar, Kerala, where nature and love blend harmoniously. This specially curated itinerary offers couples a chance to experience the tranquil tea plantations, cascading waterfalls, and mist-covered hills that make Munnar one of India's most beloved hill stations. Explore the scenic Eravikulam National Park, home to the endangered Nilgiri Tahr, visit the breathtaking Attukad Waterfalls, and enjoy a peaceful boat ride on the serene Mattupetty Dam reservoir. Cozy accommodations nestled among the hills and expertly planned sightseeing make this trail the perfect setting for couples to slow down, connect, and create beautiful memories together in the heart of God's Own Country. Key Attractions: Tea plantations, Eravikulam National Park (Nilgiri Tahr), Attukad Waterfalls, Mattupetty Dam boat ride. Ideal for: Couples, romantic getaways."
+  },
+  {
+    "id": "tour_ooty_weekend_escape",
+    "type": "tour",
+    "title": "Ooty Weekend Escape",
+    "destination": "Tamil Nadu",
+    "duration": "2D/1N",
+    "price": "7999",
+    "metadata": {
+      "category": "Weekend",
+      "package_type": "Weekend",
+      "tour_type": "Tour Package",
+      "rating": "4/5",
+      "destination": "Tamil Nadu",
+      "duration": "2D/1N",
+      "price": "7999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Ooty Weekend Escape. Destination: Tamil Nadu (Ooty / Udhagamandalam). Duration: 2D/1N. Price: ₹7,999/pax. Rating: 4/5 stars. Summary: Nestled in the scenic Nilgiri Hills, Ooty is a tranquil hill station known for its cascading waterfalls, lush green forests, fragrant tea plantations, and year-round pleasant climate. A perfect escape for city dwellers, this short weekend getaway packs in the best of Ooty's charm. Ride the iconic UNESCO-listed Nilgiri Mountain Railway for breathtaking valley views, stroll through the beautifully maintained Botanical Gardens, and enjoy a peaceful boat ride on Ooty Lake. Visit the aromatic tea and chocolate factories, explore the vibrant local market for handcrafted souvenirs, and unwind amidst the cool, refreshing mountain air. Whether you are travelling solo, as a couple, or with family, Ooty's timeless beauty and laid-back charm make it an ideal weekend retreat. Key Attractions: Nilgiri Mountain Railway (UNESCO), Botanical Gardens, Ooty Lake, tea and chocolate factories, local market. Ideal for: Solo travelers, couples, families seeking a short weekend break."
+  },
+  {
+    "id": "tour_mysore_coorg_royal_retreat",
+    "type": "tour",
+    "title": "Mysore Coorg Royal Retreat",
+    "destination": "Karnataka",
+    "duration": "4D/3N",
+    "price": "16999",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Karnataka",
+      "duration": "4D/3N",
+      "price": "16999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Mysore Coorg Royal Retreat. Destination: Karnataka (Mysore and Coorg). Duration: 4D/3N. Price: ₹16,999/pax. Rating: 5/5 stars. Summary: Witness the misty hills and emerald landscapes as you journey through the southern marvels of Karnataka, where every turn reveals breathtaking natural beauty. Feel a deep sense of tranquility as you explore Coorg's sprawling coffee and spice plantations, visit the majestic Abbey Falls, and enjoy the fragrant aromas of a region known as the Scotland of India. In Mysore, marvel at the grandeur of the iconic Mysore Palace, illuminated magnificently after sundown, and explore the bustling Devaraja Market. This retreat beautifully blends regal heritage, lush hill-station serenity, and authentic local culture into a truly memorable four-day Karnataka experience. Key Attractions: Coorg coffee and spice plantations, Abbey Falls, Mysore Palace (illuminated), Devaraja Market. Ideal for: Nature lovers, heritage travelers, families, couples."
+  },
+  {
+    "id": "tour_kerala_honeymoon_paradise",
+    "type": "tour",
+    "title": "Kerala Honeymoon Paradise",
+    "destination": "Kerala",
+    "duration": "5D/4N",
+    "price": "19499",
+    "metadata": {
+      "category": "Honeymoon",
+      "package_type": "Honeymoon",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Kerala",
+      "duration": "5D/4N",
+      "price": "19499",
+      "discount_percent": 0
+    },
+    "content": "Tour: Kerala Honeymoon Paradise. Destination: Kerala (Munnar, Alleppey, Kumarakom). Duration: 5D/4N. Price: ₹19,499/pax. Rating: 5/5 stars. Summary: Celebrate romance and natural beauty with your partner on a magical journey through Kerala, exploring iconic destinations like Munnar, Alleppey, and Kumarakom. From mist-covered hills to tranquil backwaters, Kerala offers a uniquely diverse romantic experience. Wander through the endless tea gardens of Munnar, glide along the serene Alleppey backwaters on a traditional houseboat, and relax by the peaceful shores of Kumarakom Lake. Indulge in Ayurvedic spa treatments, savour authentic Kerala cuisine by candlelight, and witness magical sunsets over the Arabian Sea. Every element of this honeymoon package has been thoughtfully curated to help couples celebrate the beginning of their journey together in the most beautiful and memorable way. Key Activities: Tea garden walks, Alleppey houseboat cruise, Kumarakom lake relaxation, Ayurvedic spa, candlelit Kerala cuisine, Arabian Sea sunset. Ideal for: Honeymooners and couples."
+  },
+  {
+    "id": "tour_rajasthan_in_a_nutshell",
+    "type": "tour",
+    "title": "Rajasthan in a Nutshell",
+    "destination": "Rajasthan",
+    "duration": "10D/9N",
+    "price": "22999",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Rajasthan",
+      "duration": "10D/9N",
+      "price": "22999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Rajasthan in a Nutshell. Destination: Rajasthan (Jaipur, Udaipur, Jaisalmer, Ranthambore). Duration: 10D/9N. Price: ₹22,999/pax. Rating: 5/5 stars. Summary: Experience the very best of Rajasthan on this all-in-one journey that blends thrilling safari adventures, royal heritage, and spiritual exploration. From majestic forts to sacred shrines, this tour captures the full spectrum of what makes Rajasthan one of India's most beloved travel destinations. Explore the Pink City of Jaipur, cruise the lakes of Udaipur, discover the golden havelis of Jaisalmer, and venture into the wilderness of Ranthambore for an exhilarating tiger safari. Along the way, experience the warmth of Rajasthani hospitality, sample the rich local cuisine, and witness vibrant folk performances that bring the culture of the desert state to life. Key Attractions: Jaipur Pink City, Udaipur lake cruise, Jaisalmer golden havelis, Ranthambore tiger safari, folk performances. Ideal for: General travelers, families, wildlife enthusiasts."
+  },
+  {
+    "id": "tour_enchanting_south_india_escape",
+    "type": "tour",
+    "title": "Enchanting South India Escape",
+    "destination": "Kerala",
+    "duration": "10D/9N",
+    "price": "23999",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Kerala",
+      "duration": "10D/9N",
+      "price": "23999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Enchanting South India Escape. Destination: Kerala and Tamil Nadu (Alleppey, Kochi, Kovalam, Madurai, Rameshwaram). Duration: 10D/9N. Price: ₹23,999/pax. Rating: 5/5 stars. Summary: Discover the wonders of South India with a thoughtfully curated journey through the breathtaking landscapes of Kerala and the sacred heritage sites of Tamil Nadu. From serene backwaters and coastal escapes to ancient temples and colonial hill stations, this tour offers an extraordinary tapestry of experiences. Drift along the Alleppey backwaters on a traditional houseboat, explore the spice markets of Kochi, and unwind on the pristine beaches of Kovalam. In Tamil Nadu, marvel at the towering gopurams of Madurai's Meenakshi Temple and the sacred coastal town of Rameshwaram. Key Attractions: Alleppey houseboat, Kochi spice markets, Kovalam beaches, Meenakshi Temple (Madurai), Rameshwaram. Ideal for: General travelers, culture seekers, spiritual tourists."
+  },
+  {
+    "id": "tour_classic_rajasthan_royal_circuit",
+    "type": "tour",
+    "title": "Classic Rajasthan Royal Circuit",
+    "destination": "Rajasthan",
+    "duration": "9D/8N",
+    "price": "21999",
+    "metadata": {
+      "category": "Family",
+      "package_type": "Family",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Rajasthan",
+      "duration": "9D/8N",
+      "price": "21999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Classic Rajasthan Royal Circuit. Destination: Rajasthan (Jaipur, Jodhpur, Udaipur). Duration: 9D/8N. Price: ₹21,999/pax. Rating: 5/5 stars. Summary: Experience the vibrant heritage and royal grandeur of Rajasthan on this memorable family tri-city journey through Jaipur, Jodhpur, and Udaipur. Discover magnificent forts, stroll through colourful bazaars, and visit opulent palaces narrating centuries of Rajput glory. In Jaipur, explore the iconic Hawa Mahal and Amber Fort; in Jodhpur, ascend the imposing Mehrangarh Fort for sweeping city views; and in Udaipur, take a leisurely boat ride on Lake Pichola. Key Attractions: Hawa Mahal, Amber Fort (Jaipur), Mehrangarh Fort (Jodhpur), Lake Pichola boat ride (Udaipur), bazaars and palaces. Ideal for: Families, heritage travelers."
+  },
+  {
+    "id": "tour_jewels_of_udaipur",
+    "type": "tour",
+    "title": "Jewels of Udaipur",
+    "destination": "Rajasthan",
+    "duration": "3D/2N",
+    "price": "12999",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Rajasthan",
+      "duration": "3D/2N",
+      "price": "12999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Jewels of Udaipur. Destination: Rajasthan (Udaipur). Duration: 3D/2N. Price: ₹12,999/pax. Rating: 5/5 stars. Summary: Step into the royal city of Udaipur, where majestic palaces, timeless temples, and serene lakes reflect centuries of history and heritage. Discover the iconic 450-year-old City Palace, Rajasthan's largest royal complex, offering panoramic views over Lake Pichola. Take a boat ride to the enchanting Jag Mandir Island Palace, visit the beautifully carved Jagdish Temple, and explore the colourful lanes of the old city. As the sun sets over the Aravalli Hills, Udaipur transforms into a city of gold and amber with palaces reflecting on the lake's still surface. Key Attractions: City Palace, Lake Pichola boat ride, Jag Mandir Island Palace, Jagdish Temple, Aravalli Hills sunset. Ideal for: Weekend travelers, couples, heritage enthusiasts."
+  },
+  {
+    "id": "tour_glimpse_of_rajasthan",
+    "type": "tour",
+    "title": "Glimpse of Rajasthan",
+    "destination": "Rajasthan",
+    "duration": "4D/3N",
+    "price": "13999",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Rajasthan",
+      "duration": "4D/3N",
+      "price": "13999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Glimpse of Rajasthan. Destination: Rajasthan (Jodhpur, Jaisalmer). Duration: 4D/3N. Price: ₹13,999/pax. Rating: 5/5 stars. Summary: Journey from the Blue City of Jodhpur to the Golden City of Jaisalmer and experience the royal essence of Rajasthan. Discover magnificent forts, intricately carved havelis, and endless desert landscapes. In Jodhpur, explore the formidable Mehrangarh Fort and wander through the vibrant Sardar Market. Continue to Jaisalmer, where the golden sandstone fort rises dramatically from the Thar Desert, and enjoy an unforgettable camel safari across the rolling dunes at sunset. Spend a magical evening at a desert camp with folk music, traditional dance, and a sky full of stars. Key Attractions: Mehrangarh Fort (Jodhpur), Sardar Market, Jaisalmer Fort, Thar Desert camel safari, desert camp. Ideal for: Short trip travelers, couples, culture enthusiasts."
+  },
+  {
+    "id": "tour_rajasthan_monsoon_trip",
+    "type": "tour",
+    "title": "Rajasthan Monsoon Trip",
+    "destination": "Rajasthan",
+    "duration": "6D/5N",
+    "price": "21000",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Rajasthan",
+      "duration": "6D/5N",
+      "price": "21000",
+      "discount_percent": 0
+    },
+    "content": "Tour: Rajasthan Monsoon Trip. Destination: Rajasthan (Jaipur, Jodhpur, Udaipur). Duration: 6D/5N. Price: ₹21,000/pax. Rating: 5/5 stars. Summary: Experience the rich history and royal heritage of Rajasthan during the refreshing monsoon season. In Jaipur, visit the magnificent Hawa Mahal and explore the grandeur of the Amber Fort and Jantar Mantar observatory. Travel to Jodhpur to witness the commanding Mehrangarh Fort above the blue cityscape, and then journey to the lake city of Udaipur, where palaces rise from the waters like a dream. The monsoon season casts a uniquely lush and refreshing charm over Rajasthan's landscapes. Key Attractions: Hawa Mahal, Amber Fort, Jantar Mantar (Jaipur), Mehrangarh Fort (Jodhpur), Udaipur lakeside palaces. Best Season: Monsoon. Ideal for: Monsoon travelers, heritage seekers."
+  },
+  {
+    "id": "tour_ranthambore_wildlife_escape",
+    "type": "tour",
+    "title": "Ranthambore Wildlife Escape",
+    "destination": "Delhi",
+    "duration": "6D/5N",
+    "price": "21680",
+    "metadata": {
+      "category": "Wildlife",
+      "package_type": "Wildlife",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Delhi / Rajasthan",
+      "duration": "6D/5N",
+      "price": "21680",
+      "discount_percent": 0
+    },
+    "content": "Tour: Ranthambore Wildlife Escape. Destination: Delhi, Agra, Ranthambore, Jaipur. Duration: 6D/5N. Price: ₹21,680/pax. Rating: 5/5 stars. Summary: Experience the magic of Rajasthan and beyond on this unforgettable Golden Triangle journey through Delhi, Agra, Ranthambore, and Jaipur. From royal havelis and grand palaces to serene lakes and thrilling wildlife encounters, this tour covers the very best of northern India. Begin in Delhi with a tour of its iconic landmarks, then travel to Agra to witness the eternal beauty of the Taj Mahal at sunrise. Head to Ranthambore National Park for an exhilarating jeep safari in search of the elusive Bengal tiger, before concluding in Jaipur with its magnificent forts and vibrant bazaars. Key Attractions: Delhi landmarks, Taj Mahal (Agra), Ranthambore National Park tiger jeep safari, Jaipur forts and bazaars. Ideal for: Wildlife enthusiasts, Golden Triangle travelers."
+  },
+  {
+    "id": "tour_soulful_mathura_vrindavan_journey",
+    "type": "tour",
+    "title": "Soulful Mathura-Vrindavan Journey",
+    "destination": "Delhi",
+    "duration": "7D/6N",
+    "price": "22500",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Spiritual",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Delhi / Uttar Pradesh",
+      "duration": "7D/6N",
+      "price": "22500",
+      "discount_percent": 0
+    },
+    "content": "Tour: Soulful Mathura-Vrindavan Journey. Destination: Delhi, Agra, Jaipur, Mathura, Vrindavan. Duration: 7D/6N. Price: ₹22,500/pax. Rating: 5/5 stars. Summary: Step away from daily routines and create timeless memories with your family on this enriching journey through Delhi, Agra, and Jaipur, along with the sacred towns of Mathura and Vrindavan. Relive the divine stories of Lord Krishna as you visit the Banke Bihari Temple, Prem Mandir, and the ghats of Mathura, where the air resonates with devotional chants and the fragrance of incense. In Agra, stand in awe before the Taj Mahal before exploring the magnificence of Agra Fort. Round off this soulful journey in Jaipur. Key Attractions: Banke Bihari Temple, Prem Mandir (Vrindavan), Mathura ghats, Taj Mahal, Agra Fort, Jaipur palaces. Ideal for: Families, spiritual travelers, Krishna devotees."
+  },
+  {
+    "id": "tour_jaipur_jaisalmer_jodhpur_romantic",
+    "type": "tour",
+    "title": "Jaipur Jaisalmer Jodhpur – Romantic Escape",
+    "destination": "Rajasthan",
+    "duration": "6D/5N",
+    "price": "17899",
+    "metadata": {
+      "category": "Couple",
+      "package_type": "Couple",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Rajasthan",
+      "duration": "6D/5N",
+      "price": "17899",
+      "discount_percent": 0
+    },
+    "content": "Tour: Jaipur Jaisalmer Jodhpur – Romantic Escape. Destination: Rajasthan (Jaipur, Jaisalmer, Jodhpur). Duration: 6D/5N. Price: ₹17,899/pax. Rating: 5/5 stars. Summary: Welcome to the royal land of Rajasthan, where romantic palaces, restored havelis, and golden desert landscapes invite you to experience opulence with your partner. Explore the majestic Amber Fort and the iconic Hawa Mahal in Jaipur, ride into the Thar Desert on camelback at sunset in Jaisalmer, and lose yourselves in the blue-washed old city of Jodhpur beneath the imposing Mehrangarh Fort. Evenings are magical — candlelit dinners on rooftop terraces, folk music drifting through warm desert air, and skies blazing with stars. Key Attractions: Amber Fort, Hawa Mahal (Jaipur), Thar Desert camel ride at sunset (Jaisalmer), Mehrangarh Fort and blue city (Jodhpur), rooftop candlelit dinners. Ideal for: Couples and honeymooners."
+  },
+  {
+    "id": "tour_delhi_agra_jaipur_circuit",
+    "type": "tour",
+    "title": "Delhi-Agra-Jaipur Circuit (Golden Triangle)",
+    "destination": "Delhi",
+    "duration": "6D/5N",
+    "price": "35000",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Delhi / Agra / Jaipur",
+      "duration": "6D/5N",
+      "price": "35000",
+      "discount_percent": 0
+    },
+    "content": "Tour: Delhi-Agra-Jaipur Circuit (Golden Triangle). Destination: Delhi, Agra, Jaipur. Duration: 6D/5N. Price: ₹35,000/pax. Rating: 5/5 stars. Summary: Discover the magic of India's most celebrated travel circuit — the Golden Triangle — covering Delhi, Agra, and Jaipur. Begin in Delhi with ancient monuments and vibrant city life — historic Old Delhi lanes, Red Fort, Humayun's Tomb, and Connaught Place. Travel to Agra to witness the iconic Taj Mahal at sunrise, grand Agra Fort, and Fatehpur Sikri. Conclude in Jaipur exploring the Amber Fort, City Palace, and famous pink-walled bazaars. Key Attractions: Red Fort, Humayun's Tomb, Old Delhi lanes (Delhi), Taj Mahal, Agra Fort, Fatehpur Sikri (Agra), Amber Fort, City Palace, Pink City bazaars (Jaipur). Ideal for: First-time India visitors, heritage travelers, international tourists."
+  },
+  {
+    "id": "tour_rajasthan_heritage_journey_luxury",
+    "type": "tour",
+    "title": "Rajasthan Heritage Journey",
+    "destination": "Rajasthan",
+    "duration": "7D/6N",
+    "price": "49625",
+    "metadata": {
+      "category": "Luxury",
+      "package_type": "Luxury",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Rajasthan",
+      "duration": "7D/6N",
+      "price": "49625",
+      "discount_percent": 0
+    },
+    "content": "Tour: Rajasthan Heritage Journey (Premium/Luxury). Destination: Rajasthan (Jaipur, Jodhpur, Jaisalmer). Duration: 7D/6N. Price: ₹49,625/pax. Rating: 5/5 stars. Summary: Discover the royal essence of Rajasthan as you explore the majestic palaces of Jaipur, the formidable forts of Jodhpur, and the golden desert charm of Jaisalmer. Stay in heritage hotels that were once royal residences, dine on regal Rajasthani thalis, and enjoy private guided tours of palaces and forts. Witness a mesmerizing sunset over the Thar Desert, experience a traditional folk performance under the stars, and shop for exquisite handicrafts in the vibrant local markets. Key Attractions: Jaipur palaces, Jodhpur forts, Jaisalmer desert, Thar Desert sunset, heritage hotel stays, private guided tours. Ideal for: Luxury travelers, heritage enthusiasts."
+  },
+  {
+    "id": "tour_sacred_tirupati_journey",
+    "type": "tour",
+    "title": "Sacred Tirupati Journey",
+    "destination": "Andhra Pradesh",
+    "duration": "3D/2N",
+    "price": "10200",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Spiritual",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Andhra Pradesh",
+      "duration": "3D/2N",
+      "price": "10200",
+      "discount_percent": 0
+    },
+    "content": "Tour: Sacred Tirupati Journey. Destination: Andhra Pradesh (Tirupati, Tirumala). Duration: 3D/2N. Price: ₹10,200/pax. Rating: 5/5 stars. Summary: Tirupati is one of India's most sacred pilgrimage destinations, known for its serene atmosphere and revered temples. This spiritual journey offers devotees a chance to seek blessings and experience divine grace at the Sri Venkateswara Temple, one of the world's most visited religious shrines, perched atop the seven sacred hills of Tirumala. Explore the beautifully ornate Padmavathi Temple in Tiruchanur, visit the tranquil ISKCON temple complex, and experience the powerful energy of this holy city. Key Attractions: Sri Venkateswara Temple (Tirumala), Padmavathi Temple (Tiruchanur), ISKCON temple. Ideal for: Pilgrims, spiritual seekers, devotees."
+  },
+  {
+    "id": "tour_kullu_manali_retreat",
+    "type": "tour",
+    "title": "Kullu-Manali Retreat",
+    "destination": "Himachal Pradesh",
+    "duration": "5D/4N",
+    "price": "20850",
+    "metadata": {
+      "category": "Adventure",
+      "package_type": "Adventure",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Himachal Pradesh",
+      "duration": "5D/4N",
+      "price": "20850",
+      "discount_percent": 0
+    },
+    "content": "Tour: Kullu-Manali Retreat. Destination: Himachal Pradesh (Manali, Kullu). Duration: 5D/4N. Price: ₹20,850/pax. Rating: 5/5 stars. Summary: Experience the enchanting charm of Manali, where snow-capped peaks, lush green valleys, and rich Himalayan culture come together. Stroll through serene cedar forests, visit the ancient Hadimba Devi Temple, and explore quaint Tibetan monasteries. Drive up to the Solang Valley for thrilling snow activities, and enjoy the scenic beauty of Rohtang Pass. In Kullu, witness the warm hospitality of hill communities and explore the vibrant shawl market. Key Attractions: Hadimba Devi Temple, Solang Valley snow activities, Rohtang Pass, Kullu shawl market, Tibetan monasteries. Ideal for: Adventure seekers, couples, families."
+  },
+  {
+    "id": "tour_himalayan_bliss_for_two",
+    "type": "tour",
+    "title": "Himalayan Bliss for Two",
+    "destination": "Himachal Pradesh",
+    "duration": "6D/5N",
+    "price": "26699",
+    "metadata": {
+      "category": "Couple",
+      "package_type": "Couple",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Himachal Pradesh",
+      "duration": "6D/5N",
+      "price": "26699",
+      "discount_percent": 0
+    },
+    "content": "Tour: Himalayan Bliss for Two. Destination: Himachal Pradesh (Shimla, Manali). Duration: 6D/5N. Price: ₹26,699/pax. Rating: 5/5 stars. Summary: Escape to the enchanting hill stations of Himachal Pradesh, where romance unfolds against the backdrop of the majestic Himalayas. From the colonial elegance of Shimla to the peaceful spiritual charm of Manali, this romantic journey offers the perfect setting for couples to reconnect. Walk hand-in-hand along the iconic Mall Road in Shimla, visit the charming Christ Church, and ride the heritage Toy Train for breathtaking views. In Manali, enjoy snow activities in Solang Valley, explore the apple orchards of Old Manali, and spend peaceful evenings in cosy mountain cafés. Key Attractions: Mall Road and Christ Church (Shimla), heritage Toy Train, Solang Valley snow activities, Old Manali apple orchards. Ideal for: Couples and honeymooners."
+  },
+  {
+    "id": "tour_himalayan_charm_dehradun_mussoorie",
+    "type": "tour",
+    "title": "Himalayan Charm – Dehradun & Mussoorie",
+    "destination": "Himachal Pradesh",
+    "duration": "4D/3N",
+    "price": "20000",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Uttarakhand (Dehradun, Mussoorie)",
+      "duration": "4D/3N",
+      "price": "20000",
+      "discount_percent": 0
+    },
+    "content": "Tour: Himalayan Charm – Dehradun & Mussoorie. Destination: Uttarakhand (Dehradun, Mussoorie). Duration: 4D/3N. Price: ₹20,000/pax. Rating: 5/5 stars. Summary: Experience the serene landscapes of Dehradun and the breathtaking hill-station charm of Mussoorie, where peaceful surroundings blend beautifully with stunning Himalayan views. Visit the scenic Robber's Cave and the serene Tapkeshwar Temple in Dehradun. Ascend to Mussoorie, the Queen of Hills, explore the famous Kempty Falls, stroll along the vibrant Mall Road, and take a cable car ride to Gun Hill for sweeping panoramic views. Key Attractions: Robber's Cave, Tapkeshwar Temple (Dehradun), Kempty Falls, Mall Road, Gun Hill cable car (Mussoorie). Ideal for: Families, couples, solo travelers."
+  },
+  {
+    "id": "tour_kashmir_escape_with_sonmarg",
+    "type": "tour",
+    "title": "Kashmir Escape with Sonmarg",
+    "destination": "Kashmir",
+    "duration": "7D/6N",
+    "price": "32500",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Kashmir",
+      "duration": "7D/6N",
+      "price": "32500",
+      "discount_percent": 0
+    },
+    "content": "Tour: Kashmir Escape with Sonmarg. Destination: Jammu & Kashmir (Srinagar, Pahalgam, Gulmarg, Sonmarg). Duration: 7D/6N. Price: ₹32,500/pax. Rating: 5/5 stars. Summary: Experience the enchanting beauty of Jammu and Kashmir, often called Paradise on Earth, as you explore Srinagar, Pahalgam, and Gulmarg. Stay in a traditional wooden houseboat on Dal Lake, take a romantic shikara ride at sunrise, and experience the world-renowned gardens of Nishat and Shalimar in full bloom. Journey to Sonmarg, the Meadow of Gold, where glaciers and mountain streams create a landscape of extraordinary beauty. Key Attractions: Dal Lake houseboat, shikara ride, Nishat and Shalimar Bagh Mughal Gardens, Gulmarg alpine meadows, Sonmarg glaciers, Pahalgam Betaab Valley. Ideal for: General travelers, couples, nature lovers."
+  },
+  {
+    "id": "tour_nainital_ranikhet_kausani",
+    "type": "tour",
+    "title": "Nainital Ranikhet Kausani Tour",
+    "destination": "Uttarakhand",
+    "duration": "5D/4N",
+    "price": "20499",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Uttarakhand",
+      "duration": "5D/4N",
+      "price": "20499",
+      "discount_percent": 0
+    },
+    "content": "Tour: Nainital Ranikhet Kausani Tour. Destination: Uttarakhand (Nainital, Ranikhet, Kausani). Duration: 5D/4N. Price: ₹20,499/pax. Rating: 5/5 stars. Summary: Experience the breathtaking charm of Nainital with a visit to Snow View Point, soaking in panoramic views of snow-capped Himalayas including the majestic Nanda Devi. Continue to Ranikhet, a peaceful cantonment town known for its verdant golf course and sweeping mountain vistas, and then on to Kausani — often called the Switzerland of India — for stunning Himalayan sunrise views. Key Attractions: Snow View Point (Nainital), Nanda Devi panorama, Ranikhet golf course, Kausani sunrise over Himalayas. Ideal for: Nature lovers, hill station enthusiasts."
+  },
+  {
+    "id": "tour_kashi_gaya_spiritual_journey",
+    "type": "tour",
+    "title": "Kashi Gaya Spiritual Journey",
+    "destination": "Uttar Pradesh",
+    "duration": "4D/3N",
+    "price": "7199",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Spiritual",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Uttar Pradesh / Bihar",
+      "duration": "4D/3N",
+      "price": "7199",
+      "discount_percent": 0
+    },
+    "content": "Tour: Kashi Gaya Spiritual Journey. Destination: Uttar Pradesh (Varanasi / Kashi) and Bihar (Gaya). Duration: 4D/3N. Price: ₹7,199/pax. Rating: 5/5 stars. Summary: The Kashi Gaya Tour Package from Chennai by train is a spiritually enriching journey that takes you to some of North India's most sacred destinations. Seek divine blessings in the ancient city of Varanasi, one of the world's oldest continuously inhabited cities, where the evening Ganga Aarti on the ghats is a profoundly moving spiritual experience. Continue to Gaya, the holy land of Lord Vishnu, to perform sacred Pind Daan rituals at the revered Vishnupad Temple on the banks of the Falgu River. Key Attractions: Ganga Aarti ghats (Varanasi), Kashi Vishwanath Temple, Vishnupad Temple (Gaya), Pind Daan rituals. Ideal for: Pilgrims, spiritual travelers, ancestral rites seekers."
+  },
+  {
+    "id": "tour_romantic_goa_getaway",
+    "type": "tour",
+    "title": "Romantic Goa Getaway",
+    "destination": "Goa",
+    "duration": "5D/4N",
+    "price": "14499",
+    "metadata": {
+      "category": "Couple",
+      "package_type": "Couple",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Goa",
+      "duration": "5D/4N",
+      "price": "14499",
+      "discount_percent": 0
+    },
+    "content": "Tour: Romantic Goa Getaway. Destination: Goa. Duration: 5D/4N. Price: ₹14,499/pax. Rating: 5/5 stars. Summary: Experience the vibrant charm of Goa, a destination known for its tranquil atmosphere, sparkling waters, and lively nightlife. Offering the perfect blend of sun, sand, and sea, Goa is famous for its spectacular beaches, Portuguese heritage architecture, and a relaxed coastal culture. Explore the golden sands of Baga and Calangute, visit the UNESCO-listed Basilica of Bom Jesus in Old Goa, and enjoy a romantic sunset cruise on the Mandovi River. Savour fresh seafood at a beachside shack, browse the vibrant Anjuna Flea Market, and dance the night away at one of Goa's legendary beach clubs. Key Attractions: Baga and Calangute beaches, Basilica of Bom Jesus (UNESCO), Mandovi River sunset cruise, Anjuna Flea Market, beach clubs. Ideal for: Couples, beach lovers."
+  },
+  {
+    "id": "tour_coastal_serenity_konkan_mahabaleshwar",
+    "type": "tour",
+    "title": "Coastal Serenity – Konkan & Mahabaleshwar",
+    "destination": "Maharashtra",
+    "duration": "3D/2N",
+    "price": "8699",
+    "metadata": {
+      "category": "Weekend",
+      "package_type": "Weekend",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Maharashtra",
+      "duration": "3D/2N",
+      "price": "8699",
+      "discount_percent": 0
+    },
+    "content": "Tour: Coastal Serenity – Konkan & Mahabaleshwar. Destination: Maharashtra (Mahabaleshwar, Konkan coast). Duration: 3D/2N. Price: ₹8,699/pax. Rating: 5/5 stars. Summary: Experience the perfect blend of hills and coastline with this refreshing getaway from Mumbai to Mahabaleshwar and the scenic Konkan region. Mahabaleshwar is known for its strawberry farms, serene viewpoints, and cool misty climate. Visit Arthur's Seat, Venna Lake, and the Pratapgarh Fort, before descending to the Konkan coast for pristine beaches and authentic coastal cuisine. Explore the tranquil shores of Ganpatipule, savour the famous Malvani seafood, and enjoy the unhurried pace of life along Maharashtra's scenic coastline. Key Attractions: Arthur's Seat, Venna Lake, Pratapgarh Fort (Mahabaleshwar), Ganpatipule beaches, Malvani seafood (Konkan). Ideal for: Weekend travelers, Mumbai residents, families."
+  },
+  {
+    "id": "tour_goa_holidays_for_family",
+    "type": "tour",
+    "title": "Goa Holidays for Family",
+    "destination": "Goa",
+    "duration": "4D/3N",
+    "price": "13599",
+    "metadata": {
+      "category": "Family",
+      "package_type": "Family",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Goa",
+      "duration": "4D/3N",
+      "price": "13599",
+      "discount_percent": 0
+    },
+    "content": "Tour: Goa Holidays for Family. Destination: Goa. Duration: 4D/3N. Price: ₹13,599/pax. Rating: 5/5 stars. Summary: Experience the vibrant charm of Goa, a perfect blend of sun, sand, and sea, ideal for families of all ages. Build sandcastles on the golden shores of Candolim, enjoy thrilling water sports at Baga Beach, and explore the historic churches and spice plantations of Old Goa. Take a scenic river cruise to spot crocodiles along the Mandovi, visit the colourful Saturday Night Market, and treat the kids to an evening at Goa's lively food and culture bazaars. Key Attractions: Candolim Beach, Baga Beach water sports, Old Goa churches, spice plantations, Mandovi crocodile river cruise, Saturday Night Market. Ideal for: Families with children."
+  },
+  {
+    "id": "tour_lonavala_weekend_escape",
+    "type": "tour",
+    "title": "Lonavala Weekend Escape",
+    "destination": "Maharashtra",
+    "duration": "5D/4N",
+    "price": "14499",
+    "metadata": {
+      "category": "Weekend",
+      "package_type": "Weekend",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Maharashtra",
+      "duration": "5D/4N",
+      "price": "14499",
+      "discount_percent": 0
+    },
+    "content": "Tour: Lonavala Weekend Escape. Destination: Maharashtra (Lonavala). Duration: 5D/4N. Price: ₹14,499/pax. Rating: 5/5 stars. Summary: Discover the scenic charm of Lonavala, a beautiful hill station nestled in the Sahyadri range of the Western Ghats between Mumbai and Pune. Visit the famous Bhushi Dam, explore the stunning Karla and Bhaja Caves dating back over two thousand years, and trek to the breathtaking Rajmachi Fort. Taste the iconic Lonavala chikki, sip on hot chai as the monsoon mist rolls in over the valleys, and unwind in a comfortable hill resort. Key Attractions: Bhushi Dam, Karla and Bhaja Caves, Rajmachi Fort trek, Lonavala chikki. Ideal for: Weekend travelers, trekkers, families near Mumbai and Pune."
+  },
+  {
+    "id": "tour_mahabaleshwar_bliss",
+    "type": "tour",
+    "title": "Mahabaleshwar Bliss",
+    "destination": "Maharashtra",
+    "duration": "3D/2N",
+    "price": "7500",
+    "metadata": {
+      "category": "Weekend",
+      "package_type": "Weekend",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Maharashtra",
+      "duration": "3D/2N",
+      "price": "7500",
+      "discount_percent": 0
+    },
+    "content": "Tour: Mahabaleshwar Bliss. Destination: Maharashtra (Mahabaleshwar, Panchgani). Duration: 3D/2N. Price: ₹7,500/pax. Rating: 5/5 stars. Summary: Enjoy a refreshing 3-day getaway to Mahabaleshwar and Panchgani, two scenic hill stations near Mumbai known for lush valleys, pleasant weather, and stunning viewpoints. Visit the sacred Mahabaleshwar Temple, stroll through the charming Table Land plateau of Panchgani, and enjoy panoramic views from Wilson Point, the highest point in Mahabaleshwar. Sample the famous local strawberries, browse the lively market for homemade jams and chocolates, and take a peaceful boat ride on the serene Venna Lake. Key Attractions: Mahabaleshwar Temple, Table Land (Panchgani), Wilson Point panorama, strawberry farms, Venna Lake boat ride. Ideal for: Weekend travelers, families, nature lovers."
+  },
+  {
+    "id": "tour_explore_north_sikkim",
+    "type": "tour",
+    "title": "Explore North Sikkim",
+    "destination": "Sikkim",
+    "duration": "4D/3N",
+    "price": "13999",
+    "metadata": {
+      "category": "Adventure",
+      "package_type": "Adventure",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Sikkim",
+      "duration": "4D/3N",
+      "price": "13999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Explore North Sikkim. Destination: Sikkim (Gangtok, Lachen, Lachung). Duration: 4D/3N. Price: ₹13,999/pax. Rating: 5/5 stars. Summary: Discover the breathtaking beauty of Sikkim, where vibrant culture, snow-clad mountains, and pristine valleys create unforgettable experiences from Gangtok to the serene high-altitude villages of Lachen and Lachung. Witness the spectacular Gurudongmar Lake, one of the world's highest freshwater lakes, and explore the enchanting Yumthang Valley (Valley of Flowers) blanketed in rhododendrons during spring. Stroll through Gangtok's bustling M.G. Marg, visit the revered Rumtek Monastery, and savour authentic Sikkimese cuisine. Key Attractions: Gurudongmar Lake, Yumthang Valley, M.G. Marg (Gangtok), Rumtek Monastery. Ideal for: Nature lovers, photographers, adventure seekers."
+  },
+  {
+    "id": "tour_discover_haridwar_rishikesh",
+    "type": "tour",
+    "title": "Discover Haridwar and Rishikesh",
+    "destination": "Uttarakhand",
+    "duration": "4D/3N",
+    "price": "22000",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Spiritual",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Uttarakhand",
+      "duration": "4D/3N",
+      "price": "22000",
+      "discount_percent": 0
+    },
+    "content": "Tour: Discover Haridwar and Rishikesh. Destination: Uttarakhand (Haridwar, Rishikesh). Duration: 4D/3N. Price: ₹22,000/pax. Rating: 5/5 stars. Summary: Discover the spiritual charm of Haridwar with its sacred ghats and mesmerizing Ganga Aarti, and explore the serene riverbanks and yoga centers of Rishikesh, known as the Yoga Capital of India. Begin your journey with a sacred dip at Har Ki Pauri in Haridwar, where the evening aarti ceremony on the Ganga is a moving spiritual experience. In Rishikesh, cross the iconic Laxman Jhula suspension bridge, visit revered temples, and attend a yoga or meditation session by the river. For adventure seekers, white-water rafting on the Ganges is also available. Key Attractions: Har Ki Pauri, Ganga Aarti (Haridwar), Laxman Jhula, yoga sessions, white-water rafting (Rishikesh). Ideal for: Spiritual travelers, yoga enthusiasts, adventure seekers."
+  },
+  {
+    "id": "tour_kedarnath_group_journey",
+    "type": "tour",
+    "title": "Kedarnath Group Journey",
+    "destination": "Uttarakhand",
+    "duration": "4D/3N",
+    "price": "18600",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Group",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Uttarakhand",
+      "duration": "4D/3N",
+      "price": "18600",
+      "discount_percent": 0
+    },
+    "content": "Tour: Kedarnath Group Journey. Destination: Uttarakhand (Kedarnath). Duration: 4D/3N. Price: ₹18,600/pax. Rating: 5/5 stars. Summary: Nestled in the Rudraprayag district of Uttarakhand, Kedarnath is one of the revered Char Dhams and a significant pilgrimage destination for devotees of Lord Shiva. Surrounded by the majestic Garhwal Himalayas and accessible only by a scenic trek through alpine forests and snow-covered trails, Kedarnath offers a deeply powerful spiritual experience. Seek divine blessings at the ancient Kedarnath Temple, one of the twelve Jyotirlingas, as sacred chants and temple bells fill the crisp mountain air. This group journey is thoughtfully organized for pilgrims with experienced guides and well-arranged logistics. Key Attractions: Kedarnath Temple (Jyotirlinga), Garhwal Himalayan trek, alpine forests. Ideal for: Group pilgrims, Shiva devotees."
+  },
+  {
+    "id": "tour_kedarnath_darshan_rishikesh_retreat",
+    "type": "tour",
+    "title": "Kedarnath Darshan with Rishikesh Retreat",
+    "destination": "Uttarakhand",
+    "duration": "5D/4N",
+    "price": "12200",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Spiritual",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Uttarakhand",
+      "duration": "5D/4N",
+      "price": "12200",
+      "discount_percent": 0
+    },
+    "content": "Tour: Kedarnath Darshan with Rishikesh Retreat. Destination: Uttarakhand (Kedarnath, Rishikesh). Duration: 5D/4N. Price: ₹12,200/pax. Rating: 5/5 stars. Summary: Kedarnath Temple is one of the most sacred Hindu pilgrimage sites, drawing thousands of devotees each year to seek the blessings of Lord Shiva. After completing the Kedarnath darshan, descend to the vibrant spiritual town of Rishikesh for a deeply calming retreat on the banks of the Ganga. Attend the famous Ganga Aarti at Triveni Ghat, practice yoga beside the flowing river, and explore the ashrams and temples that have made Rishikesh a global center for spiritual seekers. Key Attractions: Kedarnath Temple, Triveni Ghat Ganga Aarti (Rishikesh), riverside yoga, ashrams. Ideal for: Pilgrims, spiritual retreaters, yoga practitioners."
+  },
+  {
+    "id": "tour_rishikesh_camping_experience",
+    "type": "tour",
+    "title": "The Rishikesh Camping Experience",
+    "destination": "Uttarakhand",
+    "duration": "3D/2N",
+    "price": "12200",
+    "metadata": {
+      "category": "Adventure",
+      "package_type": "Adventure",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Uttarakhand",
+      "duration": "3D/2N",
+      "price": "12200",
+      "discount_percent": 0
+    },
+    "content": "Tour: The Rishikesh Camping Experience (Daredevil Tour). Destination: Uttarakhand (Rishikesh). Duration: 3D/2N. Price: ₹12,200/pax. Rating: 5/5 stars. Summary: The Rishikesh Daredevil Tour is perfect for thrill seekers looking to push their limits amidst the scenic beauty of Rishikesh. Take a leap from India's highest bungee jumping point, experience the rush of white-water rafting on the roaring rapids of the Ganges, and soar above the valley on a breathtaking flying fox zipline. As night falls, settle into a riverside camp under a vast canopy of stars, gather around a bonfire with fellow adventurers, and wake up to the sound of the river. Key Activities: Bungee jumping (India's highest point), white-water rafting (Ganges), flying fox zipline, riverside camping, bonfire under stars. Ideal for: Adventure seekers, thrill lovers, young travelers."
+  },
+  {
+    "id": "tour_divine_chardham_yatra",
+    "type": "tour",
+    "title": "Divine Chardham Yatra",
+    "destination": "Uttarakhand",
+    "duration": "10D/9N",
+    "price": "25599",
+    "original_price": "31999",
+    "discount": "20% OFF",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Spiritual",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Uttarakhand",
+      "duration": "10D/9N",
+      "price": "25599",
+      "original_price": "31999",
+      "discount_percent": 20
+    },
+    "content": "Tour: Divine Chardham Yatra. Destination: Uttarakhand (Yamunotri, Gangotri, Kedarnath, Badrinath). Duration: 10D/9N. Price: ₹25,599/pax (Original: ₹31,999) [20% OFF]. Rating: 5/5 stars. Summary: Embark on a spiritually transformative journey to the four sacred shrines of Uttarakhand — Yamunotri Temple, Gangotri Temple, Kedarnath Temple, and Badrinath Temple — a pilgrimage believed to grant moksha and eternal liberation to sincere devotees. Nestled amidst the snow-capped peaks and pristine valleys of the Garhwal Himalayas, each of these holy shrines radiates a unique divine energy and timeless spiritual significance. Witness the source of the Yamuna River at Yamunotri, perform sacred rituals at the origin of the Ganga at Gangotri, seek the blessings of Lord Shiva at Kedarnath, and conclude at the magnificent Badrinath Temple dedicated to Lord Vishnu. Key Attractions: Yamunotri Temple (source of Yamuna), Gangotri Temple (source of Ganga), Kedarnath Temple (Jyotirlinga), Badrinath Temple (Char Dham). Ideal for: Pilgrims, spiritual travelers, Hindu devotees."
+  },
+  {
+    "id": "tour_sacred_badrinath_pilgrimage",
+    "type": "tour",
+    "title": "Sacred Badrinath Pilgrimage",
+    "destination": "Uttarakhand",
+    "duration": "4D/3N",
+    "price": "15640",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Spiritual",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Uttarakhand",
+      "duration": "4D/3N",
+      "price": "15640",
+      "discount_percent": 0
+    },
+    "content": "Tour: Sacred Badrinath Pilgrimage. Destination: Uttarakhand (Badrinath, Garhwal Himalayas). Duration: 4D/3N. Price: ₹15,640/pax. Rating: 5/5 stars. Summary: Embark on a spiritually enriching journey to Badrinath, set at an elevation of over 3,100 meters amidst the awe-inspiring Garhwal Himalayas. Framed by the majestic Neelkanth Peak, Badrinath captivates every pilgrim with its divine atmosphere, stunning mountain scenery, and centuries of sacred history. Seek blessings at the revered Badrinath Temple, dedicated to Lord Vishnu, and visit the naturally hot Tapt Kund springs believed to possess healing properties. Explore the serene Brahma Kapal ghat, witness the sacred Mana Village — the last inhabited village before the Indo-Tibetan border. Key Attractions: Badrinath Temple (Lord Vishnu), Tapt Kund springs, Brahma Kapal ghat, Mana Village, Neelkanth Peak. Ideal for: Pilgrims, Vishnu devotees, Himalayan spiritual seekers."
+  },
+  {
+    "id": "tour_blessings_of_do_dham",
+    "type": "tour",
+    "title": "Blessings of Do Dham",
+    "destination": "Uttarakhand",
+    "duration": "7D/6N",
+    "price": "32500",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Group",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Uttarakhand",
+      "duration": "7D/6N",
+      "price": "32500",
+      "discount_percent": 0
+    },
+    "content": "Tour: Blessings of Do Dham (Group Tour from Delhi). Destination: Uttarakhand (Kedarnath, Badrinath). Duration: 7D/6N. Price: ₹32,500/pax. Rating: 5/5 stars. Summary: The Do Dham Group Tour from Delhi takes you on a sacred journey to Kedarnath Temple and Badrinath Temple, nestled in the serene Himalayan foothills. This spiritual yatra is believed to cleanse sins and bestow divine blessings. Trek through breathtaking mountain landscapes to reach the ancient Kedarnath Temple, one of the twelve Jyotirlingas, before journeying onward to the magnificent Badrinath Temple, one of the four sacred dhams of India. Key Attractions: Kedarnath Temple (Jyotirlinga), Badrinath Temple (Char Dham), Himalayan trek, group yatra logistics. Ideal for: Group pilgrims, devout Hindu travelers."
+  },
+  {
+    "id": "tour_delhi_agra_heritage_tour",
+    "type": "tour",
+    "title": "Delhi Agra Heritage Tour",
+    "destination": "Delhi",
+    "duration": "4D/3N",
+    "price": "14000",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Delhi / Agra",
+      "duration": "4D/3N",
+      "price": "14000",
+      "discount_percent": 0
+    },
+    "content": "Tour: Delhi Agra Heritage Tour. Destination: Delhi and Agra (Uttar Pradesh). Duration: 4D/3N. Price: ₹14,000/pax. Rating: 5/5 stars. Summary: Explore the magical charm of India's historic cities, Delhi and Agra. Discover iconic landmarks in the capital such as Red Fort, Raj Ghat, Humayun's Tomb, and the bustling lanes of Chandni Chowk, before heading to Agra for an encounter with one of the world's greatest wonders. Stand before the timeless Taj Mahal at the golden hour, marvel at the grandeur of Agra Fort, and explore the ghost city of Fatehpur Sikri, a UNESCO World Heritage Site. Key Attractions: Red Fort, Raj Ghat, Humayun's Tomb, Chandni Chowk (Delhi), Taj Mahal, Agra Fort, Fatehpur Sikri (UNESCO). Ideal for: First-time visitors, heritage and history enthusiasts."
+  },
+  {
+    "id": "tour_discovering_arunachal_pradesh",
+    "type": "tour",
+    "title": "Discovering Arunachal Pradesh",
+    "destination": "Arunachal Pradesh",
+    "duration": "7D/6N",
+    "price": "0",
+    "metadata": {
+      "category": "Adventure",
+      "package_type": "Adventure",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Arunachal Pradesh",
+      "duration": "7D/6N",
+      "price": "Contact for pricing",
+      "discount_percent": 0
+    },
+    "content": "Tour: Discovering Arunachal Pradesh. Destination: Arunachal Pradesh (Tawang, Sela Pass). Duration: 7D/6N. Price: Contact for pricing. Rating: 5/5 stars. Summary: Explore the untouched beauty of Arunachal Pradesh, where lush forests, snow-capped mountains, ancient monasteries, and vibrant tribal culture create a truly unique Himalayan experience. Visit the stunning Tawang Monastery, one of Asia's largest Buddhist monasteries, perched at an altitude of over 10,000 feet. Discover the serene Sela Pass, often draped in snow and mist, and explore the pristine Nuranang (Jung) Waterfalls. Experience the warm hospitality of the indigenous tribes of Arunachal, taste authentic Apatani and Monpa cuisine, and witness a way of life unchanged for generations. Key Attractions: Tawang Monastery (Asia's largest Buddhist monastery), Sela Pass, Nuranang/Jung Waterfalls, Apatani and Monpa tribal culture. Ideal for: Adventure seekers, offbeat travelers, nature lovers."
+  },
+  {
+    "id": "tour_enchanting_karnataka_experience",
+    "type": "tour",
+    "title": "Enchanting Karnataka Experience",
+    "destination": "Karnataka",
+    "duration": "5D/4N",
+    "price": "24800",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Karnataka",
+      "duration": "5D/4N",
+      "price": "24800",
+      "discount_percent": 0
+    },
+    "content": "Tour: Enchanting Karnataka Experience. Destination: Karnataka (Chikmagalur, Hampi). Duration: 5D/4N. Price: ₹24,800/pax. Rating: 5/5 stars. Summary: Embark on an unforgettable journey from the serene coffee plantations of Chikmagalur to the ancient ruins of Hampi, where nature and history blend seamlessly. Trek through the aromatic coffee estates of Chikmagalur, visit the iconic Mullayanagiri peak for sweeping mountain views, and explore the enigmatic boulder-strewn ruins of Vijayanagara at Hampi. Marvel at the magnificent Virupaksha Temple, the iconic Stone Chariot, and the ancient royal enclosures. Key Attractions: Chikmagalur coffee estates, Mullayanagiri peak, Hampi ruins (Vijayanagara), Virupaksha Temple, Stone Chariot (Vittala Temple). Ideal for: Heritage travelers, nature lovers, culture enthusiasts."
+  },
+  {
+    "id": "tour_timeless_hampi_experience",
+    "type": "tour",
+    "title": "Timeless Hampi Experience",
+    "destination": "Karnataka",
+    "duration": "3D/2N",
+    "price": "7599",
+    "metadata": {
+      "category": "General",
+      "package_type": "Weekend",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Karnataka",
+      "duration": "3D/2N",
+      "price": "7599",
+      "discount_percent": 0
+    },
+    "content": "Tour: Timeless Hampi Experience. Destination: Karnataka (Hampi). Duration: 3D/2N. Price: ₹7,599/pax. Rating: 5/5 stars. Summary: Hampi is a UNESCO World Heritage Site celebrated for its glorious past under the Vijayanagara Empire. Once one of the richest and largest cities in the world, Hampi today stands as a magnificent open-air museum of temples, royal structures, and ancient marketplaces set against a dramatic landscape of giant boulders and banana plantations. Explore the iconic Virupaksha Temple, admire the intricately carved Stone Chariot at the Vittala Temple complex, and stroll through the ruins of the royal enclosure and elephant stables. Hire a bicycle to navigate the sprawling ruins at your own pace, and watch a spectacular sunset from the Hemakuta Hill Temple. Key Attractions: Virupaksha Temple, Vittala Temple Stone Chariot, royal enclosure, elephant stables, Hemakuta Hill sunset, bicycle tours. Ideal for: Heritage lovers, weekend travelers, backpackers."
+  },
+  {
+    "id": "tour_adiyogi_serenity_journey",
+    "type": "tour",
+    "title": "Adiyogi Serenity Journey",
+    "destination": "Karnataka",
+    "duration": "6D/5N",
+    "price": "12999",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Spiritual",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Karnataka / Tamil Nadu",
+      "duration": "6D/5N",
+      "price": "12999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Adiyogi Serenity Journey. Destination: Tamil Nadu (Madurai) and Karnataka (Coimbatore / Isha Yoga Center). Duration: 6D/5N. Price: ₹12,999/pax. Rating: 5/5 stars. Summary: Embark on a spiritual journey to Madurai, one of India's most ancient and culturally rich cities. Visit the magnificent Meenakshi Amman Temple, a masterpiece of Dravidian architecture, and witness the elaborate rituals and vibrant devotional atmosphere that fill its towering gopurams. Continue your spiritual journey to the Isha Yoga Center in Coimbatore, home to the awe-inspiring 112-foot Adiyogi Shiva statue, a place of stillness, inner exploration, and transformative energy. Key Attractions: Meenakshi Amman Temple (Madurai), Isha Yoga Center, Adiyogi Shiva statue (Coimbatore). Ideal for: Spiritual seekers, yoga practitioners, temple devotees."
+  },
+  {
+    "id": "tour_coastal_karnataka_experience",
+    "type": "tour",
+    "title": "The Coastal Karnataka Experience",
+    "destination": "Karnataka",
+    "duration": "5D/4N",
+    "price": "9999",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Karnataka",
+      "duration": "5D/4N",
+      "price": "9999",
+      "discount_percent": 0
+    },
+    "content": "Tour: The Coastal Karnataka Experience. Destination: Karnataka (Gokarna, Murudeshwar). Duration: 5D/4N. Price: ₹9,999/pax. Rating: 5/5 stars. Summary: Experience the perfect blend of beach serenity and spiritual charm on a journey to Gokarna and Murudeshwar. Gokarna is a tranquil pilgrimage town home to some of the most pristine and uncrowded beaches in India, including Om Beach, Half Moon Beach, and Paradise Beach. In Murudeshwar, gaze upon one of the world's tallest Shiva statues rising majestically from the sea, and visit the ancient Murudeshwar Temple perched on a rocky cliff above the ocean. Key Attractions: Om Beach, Half Moon Beach, Paradise Beach (Gokarna), Murudeshwar Shiva statue (world's tallest), Murudeshwar Temple. Ideal for: Beach lovers, spiritual travelers, couples."
+  },
+  {
+    "id": "tour_hampi_gokarna_murudeshwar_escape",
+    "type": "tour",
+    "title": "Hampi-Gokarna-Murudeshwar Escape",
+    "destination": "Karnataka",
+    "duration": "5D/4N",
+    "price": "13999",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Karnataka",
+      "duration": "5D/4N",
+      "price": "13999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Hampi-Gokarna-Murudeshwar Escape. Destination: Karnataka (Hampi, Gokarna, Murudeshwar). Duration: 5D/4N. Price: ₹13,999/pax. Rating: 5/5 stars. Summary: Experience the perfect mix of history and beachside relaxation on a journey through Hampi and Gokarna. Explore the magnificent ruins of the Vijayanagara Empire at Hampi — from the iconic Vittala Temple with its famous Stone Chariot to the imposing Lotus Mahal and the royal elephant stables. Then journey west to the serene beaches and sacred temples of Gokarna, where pilgrims and travelers coexist in perfect harmony. Wind down in Murudeshwar, where the towering Shiva statue overlooks the shimmering Arabian Sea. Key Attractions: Vittala Temple, Stone Chariot, Lotus Mahal, elephant stables (Hampi), Gokarna beaches and temples, Murudeshwar Shiva statue. Ideal for: History buffs, beach lovers, spiritual travelers."
+  },
+  {
+    "id": "tour_malvan_tarkarli_escape",
+    "type": "tour",
+    "title": "Malvan Tarkarli Escape",
+    "destination": "Maharashtra",
+    "duration": "4D/3N",
+    "price": "7999",
+    "metadata": {
+      "category": "General",
+      "package_type": "Weekend",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Maharashtra",
+      "duration": "4D/3N",
+      "price": "7999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Malvan Tarkarli Escape. Destination: Maharashtra (Malvan, Tarkarli – Konkan Coast). Duration: 4D/3N. Price: ₹7,999/pax. Rating: 5/5 stars. Summary: Discover the coastal charm of Malvan and Tarkarli, two stunning destinations along the Konkan Coast. Known for crystal-clear waters, white sandy beaches, and peaceful fishing villages, this region offers one of Maharashtra's most unspoiled and authentic coastal experiences. Snorkel or scuba dive in the translucent waters of Tarkarli Beach, explore the impressive Sindhudurg Fort — a seventeenth-century sea fort built by Chhatrapati Shivaji Maharaj — and savour the legendary Malvani cuisine with bold flavors of coastal spices and fresh seafood. Key Attractions: Tarkarli Beach snorkeling and scuba diving, Sindhudurg Fort, mangrove boat rides, Malvani seafood. Ideal for: Beach lovers, water sports enthusiasts, history buffs."
+  },
+  {
+    "id": "tour_northeast_nature_escape",
+    "type": "tour",
+    "title": "Northeast Nature Escape",
+    "destination": "Meghalaya",
+    "duration": "7D/6N",
+    "price": "14500",
+    "metadata": {
+      "category": "Adventure",
+      "package_type": "Adventure",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Meghalaya / Assam",
+      "duration": "7D/6N",
+      "price": "14500",
+      "discount_percent": 0
+    },
+    "content": "Tour: Northeast Nature Escape. Destination: Meghalaya and Kaziranga (Assam). Duration: 7D/6N. Price: ₹14,500/pax. Rating: 5/5 stars. Summary: Discover the raw beauty of Northeast India on an unforgettable journey through Meghalaya and Kaziranga. In Meghalaya, wander through mist-covered hills, cascading waterfalls, and ancient living root bridges. Explore the breathtaking Cherrapunji (one of the wettest places on Earth), visit the luminous Dawki River on the Bangladesh border, and marvel at the Double Decker Living Root Bridge in Nongriat village. Continue to Kaziranga National Park (UNESCO), the stronghold of the Indian one-horned rhinoceros, for thrilling jeep and elephant safaris. Key Attractions: Living root bridges, Cherrapunji, Dawki River, Double Decker Root Bridge (Nongriat), Kaziranga National Park (rhino safaris). Ideal for: Nature lovers, wildlife enthusiasts, offbeat travelers."
+  },
+  {
+    "id": "tour_spiti_valley_adventure_drive",
+    "type": "tour",
+    "title": "Spiti Valley Adventure Drive",
+    "destination": "Himachal Pradesh",
+    "duration": "9D/8N",
+    "price": "21559",
+    "original_price": "24499",
+    "discount": "12% OFF",
+    "metadata": {
+      "category": "Adventure",
+      "package_type": "Adventure",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Himachal Pradesh",
+      "duration": "9D/8N",
+      "price": "21559",
+      "original_price": "24499",
+      "discount_percent": 12
+    },
+    "content": "Tour: Spiti Valley Adventure Drive. Destination: Himachal Pradesh (Spiti Valley). Duration: 9D/8N. Price: ₹21,559/pax (Original: ₹24,499) [12% OFF]. Rating: 5/5 stars. Summary: Tucked away in the majestic Himalayas, Spiti Valley is a breathtaking destination where nature unveils a new masterpiece at every turn. Dramatic mountain landscapes, ancient monasteries, crystal-clear rivers, and remote villages untouched by modernity make this one of India's most extraordinary road trip destinations. Drive through the legendary Rohtang Pass and the dramatic Kunzum La, explore the ancient Key Monastery perched on a hilltop above the Spiti River, and visit the centuries-old Tabo Monastery, a living museum of Buddhist art and scripture. Camp under a million stars in Kaza, explore the fossil-rich landscapes of Langza, and interact with the warm-hearted communities of this remote Himalayan valley. Key Attractions: Rohtang Pass, Kunzum La, Key Monastery, Tabo Monastery, Kaza star camping, Langza fossil landscape. Ideal for: Adventure riders, road trip enthusiasts, nature lovers."
+  },
+  {
+    "id": "tour_bhubaneswar_puri_konark_journey",
+    "type": "tour",
+    "title": "Bhubaneswar Puri Konark Journey",
+    "destination": "Odisha",
+    "duration": "5D/4N",
+    "price": "8299",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Spiritual",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Odisha",
+      "duration": "5D/4N",
+      "price": "8299",
+      "discount_percent": 0
+    },
+    "content": "Tour: Bhubaneswar Puri Konark Journey. Destination: Odisha (Bhubaneswar, Puri, Konark). Duration: 5D/4N. Price: ₹8,299/pax. Rating: 5/5 stars. Summary: Odisha is home to some of India's most sacred and popular temples. Begin in Bhubaneswar (the Temple City of India), exploring the magnificent Lingaraj Temple and the serene Dhauli Peace Pagoda. Journey to Puri to witness the grand Jagannath Temple and walk along the golden sands of Puri Beach. Conclude at the awe-inspiring Konark Sun Temple, a UNESCO World Heritage Site, renowned for its intricate stone carvings and astronomical precision. Key Attractions: Lingaraj Temple, Dhauli Peace Pagoda (Bhubaneswar), Jagannath Temple, Puri Beach, Konark Sun Temple (UNESCO). Ideal for: Pilgrims, heritage travelers, temple enthusiasts."
+  },
+  {
+    "id": "tour_sikkim_darjeeling_journey",
+    "type": "tour",
+    "title": "Sikkim Darjeeling Journey",
+    "destination": "Sikkim",
+    "duration": "6D/5N",
+    "price": "15599",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Sikkim / West Bengal",
+      "duration": "6D/5N",
+      "price": "15599",
+      "discount_percent": 0
+    },
+    "content": "Tour: Sikkim Darjeeling Journey. Destination: Sikkim (Gangtok) and West Bengal (Darjeeling). Duration: 6D/5N. Price: ₹15,599/pax. Rating: 5/5 stars. Summary: This tour takes you to the scenic hill stations of Gangtok and Darjeeling, offering stunning views of Mount Kanchenjunga. In Gangtok, explore viewpoints like Tashi View Point and Ganesh Tok, visit the revered Rumtek Monastery, and stroll along lively M.G. Marg. Travel to Darjeeling, where the iconic Toy Train (UNESCO-recognized) rattles through tea estates, and wake up before dawn to witness a glorious sunrise over Kanchenjunga from Tiger Hill. Explore the Peace Pagoda, tour a working tea garden, and browse the vibrant Chowrasta. Key Attractions: Tashi View Point, Rumtek Monastery (Gangtok), Darjeeling Toy Train (UNESCO), Tiger Hill sunrise, tea garden tour, Chowrasta. Ideal for: Nature lovers, hill station enthusiasts, couples."
+  },
+  {
+    "id": "tour_heavenly_kashmir_escape",
+    "type": "tour",
+    "title": "Heavenly Kashmir Escape",
+    "destination": "Kashmir",
+    "duration": "6D/5N",
+    "price": "24499",
+    "metadata": {
+      "category": "General",
+      "package_type": "General",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Kashmir",
+      "duration": "6D/5N",
+      "price": "24499",
+      "discount_percent": 0
+    },
+    "content": "Tour: Heavenly Kashmir Escape. Destination: Jammu & Kashmir (Srinagar, Gulmarg, Pahalgam). Duration: 6D/5N. Price: ₹24,499/pax. Rating: 5/5 stars. Summary: A mesmerizing journey through the breathtaking landscapes of Jammu and Kashmir, perfectly blending leisure, adventure, and natural beauty. Stay in a beautifully appointed traditional houseboat on the iconic Dal Lake and enjoy a peaceful shikara ride through the lotus-covered waterways at dawn. Explore the world-famous Mughal Gardens — Shalimar Bagh, Nishat Bagh, and Chashme Shahi — and discover the hilltop Shankaracharya Temple for panoramic city views. Visit the alpine meadows of Gulmarg, and explore the scenic Betaab Valley in Pahalgam. Key Attractions: Dal Lake houseboat, shikara ride, Shalimar Bagh, Nishat Bagh, Chashme Shahi (Mughal Gardens), Shankaracharya Temple, Gulmarg alpine meadows, Betaab Valley (Pahalgam). Ideal for: General travelers, nature lovers, couples."
+  },
+  {
+    "id": "tour_soulful_braj_with_agra",
+    "type": "tour",
+    "title": "Soulful Braj with Agra",
+    "destination": "Uttar Pradesh",
+    "duration": "4D/3N",
+    "price": "14499",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Spiritual",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Uttar Pradesh",
+      "duration": "4D/3N",
+      "price": "14499",
+      "discount_percent": 0
+    },
+    "content": "Tour: Soulful Braj with Agra. Destination: Uttar Pradesh (Mathura, Vrindavan, Agra). Duration: 4D/3N. Price: ₹14,499/pax. Rating: 5/5 stars. Summary: Embark on a captivating journey through Mathura and Vrindavan, the sacred lands of Lord Krishna. Visit the magnificent Dwarkadhish Temple and Banke Bihari Temple in Vrindavan, attend the soul-stirring evening aarti at the Yamuna ghats, and explore the birthplace of Lord Krishna at the Shri Krishna Janmabhoomi in Mathura. Continue to Agra to witness the eternal splendour of the Taj Mahal at sunrise. Key Attractions: Dwarkadhish Temple, Banke Bihari Temple (Vrindavan), Yamuna ghats aarti, Shri Krishna Janmabhoomi (Mathura), Taj Mahal at sunrise (Agra). Ideal for: Spiritual travelers, Krishna devotees, heritage lovers."
+  },
+  {
+    "id": "tour_kasol_kheerganga_journey",
+    "type": "tour",
+    "title": "Kasol to Kheerganga Journey",
+    "destination": "Himachal Pradesh",
+    "duration": "5D/4N",
+    "price": "15599",
+    "metadata": {
+      "category": "Adventure",
+      "package_type": "Adventure",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Himachal Pradesh",
+      "duration": "5D/4N",
+      "price": "15599",
+      "discount_percent": 0
+    },
+    "content": "Tour: Kasol to Kheerganga Journey. Destination: Himachal Pradesh (Kasol, Parvati Valley, Kheerganga, Manikaran). Duration: 5D/4N. Price: ₹15,599/pax. Rating: 5/5 stars. Summary: Escape to the heart of the Himalayas with an unforgettable journey to Kasol, a serene hamlet nestled in the breathtaking Parvati Valley. Explore the peaceful riverside lanes of Kasol and the mystical Manikaran Sahib Gurudwara, where natural hot springs bubble beside the Parvati River. Embark on the scenic trek to Kheerganga, one of Himachal's most rewarding high-altitude trails, and soak in the natural hot water pool at the summit surrounded by magnificent mountain views. Key Attractions: Kasol village, Manikaran Sahib Gurudwara with hot springs, Kheerganga trek and natural hot water pool. Ideal for: Adventure trekkers, backpackers, nature lovers."
+  },
+  {
+    "id": "tour_kasol_manali_adventure",
+    "type": "tour",
+    "title": "Kasol to Manali Adventure Tour",
+    "destination": "Himachal Pradesh",
+    "duration": "7D/6N",
+    "price": "19599",
+    "metadata": {
+      "category": "Adventure",
+      "package_type": "Adventure",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Himachal Pradesh",
+      "duration": "7D/6N",
+      "price": "19599",
+      "discount_percent": 0
+    },
+    "content": "Tour: Kasol to Manali Adventure Tour. Destination: Himachal Pradesh (Kasol, Manikaran, Manali). Duration: 7D/6N. Price: ₹19,599/pax. Rating: 5/5 stars. Summary: Escape to the heart of the Himalayas on an extended adventure from the spiritual calm of Kasol and Manikaran to the thrilling mountain landscapes of Manali. Trek through pine-covered trails, white-water raft on the Beas River, and explore the vibrant café culture of Kasol famous among backpackers. In Manali, visit the ancient Hadimba Devi Temple, drive up to the snow-covered Solang Valley, and take in the breathtaking vistas of Rohtang Pass. Key Attractions: Kasol riverside cafes, Manikaran Sahib hot springs, Beas River rafting, Hadimba Devi Temple, Solang Valley snow, Rohtang Pass vistas. Ideal for: Adventure travelers, backpackers, young groups."
+  },
+  {
+    "id": "tour_explore_royal_uttarakhand",
+    "type": "tour",
+    "title": "Explore Royal Uttarakhand",
+    "destination": "Uttarakhand",
+    "duration": "8D/7N",
+    "price": "21999",
+    "metadata": {
+      "category": "Wildlife",
+      "package_type": "Wildlife",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Uttarakhand",
+      "duration": "8D/7N",
+      "price": "21999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Explore Royal Uttarakhand. Destination: Uttarakhand (Jim Corbett, Haridwar, Rishikesh). Duration: 8D/7N. Price: ₹21,999/pax. Rating: 5/5 stars. Summary: Discover the majestic beauty of Uttarakhand — the Land of the Gods — on a premium journey blending adventure, serenity, and cultural charm. Explore the wildlife-rich grasslands of Jim Corbett National Park in search of tigers, elephants, and leopards, then transition to the spiritual calm of Haridwar for a soul-stirring Ganga Aarti at Har Ki Pauri. In Rishikesh, choose between yoga sessions by the river and white-water rafting on the Ganges. Key Attractions: Jim Corbett National Park safaris (tigers, elephants, leopards), Har Ki Pauri Ganga Aarti (Haridwar), yoga, white-water rafting (Rishikesh). Ideal for: Wildlife enthusiasts, adventure and spiritual travelers."
+  },
+  {
+    "id": "tour_himachal_nature_escape",
+    "type": "tour",
+    "title": "Himachal Nature Escape",
+    "destination": "Himachal Pradesh",
+    "duration": "8D/7N",
+    "price": "21999",
+    "metadata": {
+      "category": "Adventure",
+      "package_type": "Adventure",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Himachal Pradesh",
+      "duration": "8D/7N",
+      "price": "21999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Himachal Nature Escape. Destination: Himachal Pradesh (Kasol, Manali, Bir Billing, Kangra Valley). Duration: 8D/7N. Price: ₹21,999/pax. Rating: 5/5 stars. Summary: Indulge in an exquisite escape through the enchanting landscapes of Himachal Pradesh, from riverside serenity to paragliding adventures. Begin with the riverside serenity of Kasol in the Parvati Valley, trek through pine forests to hidden waterfalls, and paraglide over the lush valleys of Bir Billing — one of the world's premier paragliding destinations. In Manali, explore the ancient Hadimba Temple, visit Rohtang Pass for dramatic snowscapes, and enjoy the warmth of Himachali hospitality. Key Attractions: Kasol Parvati Valley, pine forest treks, Bir Billing paragliding, Hadimba Temple (Manali), Rohtang Pass snowscapes, Kangra Valley. Ideal for: Nature lovers, adventure travelers, paragliding enthusiasts."
+  },
+  {
+    "id": "tour_divine_trails_kedarnath_tungnath",
+    "type": "tour",
+    "title": "Divine Trails – Kedarnath to Tungnath",
+    "destination": "Uttarakhand",
+    "duration": "8D/7N",
+    "price": "17999",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Spiritual",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Uttarakhand",
+      "duration": "8D/7N",
+      "price": "17999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Divine Trails – Kedarnath to Tungnath. Destination: Uttarakhand (Kedarnath, Tungnath, Chandrashila). Duration: 8D/7N. Price: ₹17,999/pax. Rating: 5/5 stars. Summary: Embark on a captivating journey through the sacred landscapes and breathtaking beauty of Uttarakhand. Seek blessings at the revered Kedarnath Temple, one of the twelve Jyotirlingas, and then trek to Tungnath, the world's highest Shiva temple, through enchanting meadows of rhododendron blooms. Visit the panoramic Chandrashila summit for a 360-degree view of Himalayan ranges including Nanda Devi, Trishul, and Kedarnath peak. Key Attractions: Kedarnath Temple (Jyotirlinga), Tungnath (world's highest Shiva temple), Chandrashila summit 360° views, rhododendron meadows. Ideal for: Spiritual trekkers, Himalayan pilgrims, nature lovers."
+  },
+  {
+    "id": "tour_ujjain_serenity_journey",
+    "type": "tour",
+    "title": "Ujjain Serenity Journey",
+    "destination": "Madhya Pradesh",
+    "duration": "5D/4N",
+    "price": "13999",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Spiritual",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Madhya Pradesh",
+      "duration": "5D/4N",
+      "price": "13999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Ujjain Serenity Journey. Destination: Madhya Pradesh (Ujjain, Omkareshwar, Indore). Duration: 5D/4N. Price: ₹13,999/pax. Rating: 5/5 stars. Summary: The Ujjain-Omkareshwar-Indore journey is a spiritually enriching experience through some of Madhya Pradesh's most sacred and historic destinations. In Ujjain, seek blessings at the revered Mahakaleshwar Temple, one of the twelve Jyotirlingas, and witness the extraordinary Bhasma Aarti performed before dawn. Journey to Omkareshwar, where the sacred island shaped like the Om symbol sits at the confluence of the Narmada and Kaveri rivers, and pay homage at the revered Omkareshwar Jyotirlinga Temple. Conclude in Indore, Madhya Pradesh's vibrant commercial capital, with its famous street food, colonial-era heritage, and the stunning Rajwada Palace. Key Attractions: Mahakaleshwar Temple with Bhasma Aarti (Ujjain), Omkareshwar Jyotirlinga Temple, Narmada-Kaveri confluence, Rajwada Palace (Indore). Ideal for: Pilgrims, Jyotirlinga seekers, spiritual travelers."
+  },
+  {
+    "id": "tour_do_dham_chopta_tungnath",
+    "type": "tour",
+    "title": "Do Dham with Chopta and Tungnath",
+    "destination": "Uttarakhand",
+    "duration": "9D/8N",
+    "price": "20999",
+    "metadata": {
+      "category": "Spiritual",
+      "package_type": "Spiritual",
+      "tour_type": "Tour Package",
+      "rating": "5/5",
+      "destination": "Uttarakhand",
+      "duration": "9D/8N",
+      "price": "20999",
+      "discount_percent": 0
+    },
+    "content": "Tour: Do Dham with Chopta and Tungnath. Destination: Uttarakhand (Kedarnath, Badrinath, Chopta, Tungnath, Chandrashila). Duration: 9D/8N. Price: ₹20,999/pax. Rating: 5/5 stars. Summary: Embark on a refined spiritual retreat to the sacred shrines of Kedarnath Temple and Badrinath Temple, set amidst the pristine beauty of the Garhwal Himalayas. This journey combines the divine grace of the Do Dham pilgrimage with the extraordinary natural beauty of Chopta and Tungnath. Trek through enchanting meadows to reach Tungnath, the world's highest Shiva temple, and ascend to the Chandrashila summit for panoramic Himalayan views. Visit Badrinath to seek the blessings of Lord Vishnu and explore the sacred Mana Village nearby. Key Attractions: Kedarnath Temple, Badrinath Temple (Char Dham), Tungnath (world's highest Shiva temple), Chandrashila summit, Mana Village (last village before Tibet). Ideal for: Pilgrims, spiritual trekkers, devotees."
+  },
+  {
+    "id": "destination_guide_pune",
+    "type": "destination_guide",
+    "title": "Pune Unfiltered: Culture, Hills, and Modern Rhythm",
+    "destination": "Maharashtra (Pune)",
+    "metadata": {
+      "category": "Destination Guide",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "themes": ["Heritage", "Hill Stations", "Culture", "Adventure", "Urban"]
+    },
+    "content": "Destination Guide: Pune, Maharashtra. Pune is a destination that cannot be experienced in a hurry. It is a place where history, culture, spirituality, and everyday life blend together in a wonderfully layered tapestry that rewards curious travelers. Once the seat of the great Maratha Empire, Pune carries its rich legacy in every corner — from the imposing Shaniwar Wada fort palace and the revered Aga Khan Palace to the countless temples, ghats, and heritage landmarks that dot its landscape. Yet Pune is equally at home in the present, with its thriving university culture, buzzing café scene, and cosmopolitan energy that has earned it the nickname Oxford of the East. Explore the misty hill stations of Lonavala and Mahabaleshwar on the city's doorstep, trek the ancient forts of the Sahyadri ranges, or simply wander through the vibrant streets of Koregaon Park and FC Road. Pune is a city that rewards those who take their time, look beyond the obvious, and allow its many stories to unfold at their own pace. Key Highlights: Shaniwar Wada, Aga Khan Palace, Lonavala and Mahabaleshwar hill stations, Sahyadri fort treks, Koregaon Park and FC Road, university culture."
+  },
+  {
+    "id": "destination_guide_varanasi",
+    "type": "destination_guide",
+    "title": "Varanasi Through Time: Stories Flowing with the Ganga",
+    "destination": "Uttar Pradesh (Varanasi / Kashi / Banaras)",
+    "metadata": {
+      "category": "Destination Guide",
+      "state": "Uttar Pradesh",
+      "city": "Varanasi",
+      "themes": ["Spiritual", "Cultural", "Heritage", "Pilgrimage"]
+    },
+    "content": "Destination Guide: Varanasi, Uttar Pradesh. Varanasi is a destination that cannot be experienced in a hurry. It is a place where history, culture, spirituality, and everyday life blend together in a river of timeless continuity that has flowed unbroken for over three thousand years. One of the oldest continuously inhabited cities in the world, Varanasi — also known as Kashi or Banaras — sits on the sacred western banks of the Ganga and has been a center of learning, devotion, and pilgrimage since ancient times. Wake before dawn to witness the sunrise Ganga Aarti from a wooden boat as the river glows with the light of a thousand diyas, and spend your mornings exploring the labyrinthine lanes of the old city, where chai stalls, flower sellers, and ancient temples coexist in colourful chaos. Visit the revered Kashi Vishwanath Temple, the Sarnath deer park where the Buddha gave his first sermon, and the burning ghats where the cycle of life and death plays out with raw, unfiltered honesty. Varanasi is not just a destination — it is an experience that changes the way you see the world. Key Highlights: Ganga Aarti by boat at sunrise, Kashi Vishwanath Temple, Sarnath (Buddha's first sermon), burning ghats, labyrinthine old city lanes."
+  },
+  {
+    "id": "destination_guide_nashik",
+    "type": "destination_guide",
+    "title": "Nashik Journeys: Sacred Ghats and Vineyard Trails",
+    "destination": "Maharashtra (Nashik)",
+    "metadata": {
+      "category": "Destination Guide",
+      "state": "Maharashtra",
+      "city": "Nashik",
+      "themes": ["Spiritual", "Wine Tourism", "Heritage", "Cultural"]
+    },
+    "content": "Destination Guide: Nashik, Maharashtra. Nashik is a destination that cannot be experienced in a hurry. It is a place where history, culture, spirituality, and everyday life blend together to create one of Maharashtra's most multifaceted travel experiences. Known as the Wine Capital of India, Nashik is home to some of the country's finest vineyards and wineries, where you can enjoy tastings amid rolling green hills and sun-drenched grape estates. But Nashik is equally revered as a sacred city — one of the four sites of the Kumbh Mela — with the sacred Godavari River flowing through its heart and hundreds of ancient temples lining its banks. Explore the revered Trimbakeshwar Shiva Temple, take a holy dip at the Ramkund ghats, and discover the ancient Pandavleni Buddhist caves carved into the rocky hillsides above the city. In the evenings, sample the award-winning wines of Sula Vineyards and dine amid the vines as the sunset paints the valley in gold. Key Highlights: Sula Vineyards wine tasting, Trimbakeshwar Shiva Temple, Ramkund ghats, Pandavleni Buddhist caves, Godavari River, Kumbh Mela site."
+  },
+  {
+    "id": "destination_guide_udaipur",
+    "type": "destination_guide",
+    "title": "Udaipur Tales: Romance Reflected in Lakes",
+    "destination": "Rajasthan (Udaipur)",
+    "metadata": {
+      "category": "Destination Guide",
+      "state": "Rajasthan",
+      "city": "Udaipur",
+      "themes": ["Romantic", "Heritage", "Lakes", "Palaces", "Cultural"]
+    },
+    "content": "Destination Guide: Udaipur, Rajasthan — the Venice of the East. Udaipur is a destination that cannot be experienced in a hurry. It is a place where history, culture, spirituality, and everyday life blend together in a setting of such extraordinary beauty. Built around a constellation of sparkling lakes and overlooked by the ancient Aravalli Hills, Udaipur is one of India's most romantic and visually stunning cities. The magnificent City Palace, rising above the shores of Lake Pichola, is a masterpiece of Rajput architecture. Take a leisurely boat ride to the ethereal Jag Mandir and Jag Niwas island palaces, wander through the vibrant bazaars of the old city for handcrafted textiles and silver jewellery, and visit the ornately carved Jagdish Temple. As evening falls, rooftop restaurants above the lake come alive with the glow of lanterns and the sound of folk music. Key Highlights: City Palace, Lake Pichola boat rides, Jag Mandir and Jag Niwas island palaces, Jagdish Temple, Aravalli Hills, rooftop lake-view restaurants, Rajput architecture."
+  },
+  {
+    "id": "destination_guide_jaipur",
+    "type": "destination_guide",
+    "title": "Jaipur Beyond Palaces: Living the Royal Legacy",
+    "destination": "Rajasthan (Jaipur)",
+    "metadata": {
+      "category": "Destination Guide",
+      "state": "Rajasthan",
+      "city": "Jaipur",
+      "themes": ["Heritage", "Royal", "Shopping", "Culture", "Architecture"]
+    },
+    "content": "Destination Guide: Jaipur, Rajasthan — the Pink City and India's first planned city. Jaipur is a destination that cannot be experienced in a hurry. It is a place where history, culture, spirituality, and everyday life blend together within the rose-tinted walls of India's first planned city. Founded in 1727 by Maharaja Sawai Jai Singh II, the Pink City is home to some of Rajasthan's most magnificent monuments — from the iconic Hawa Mahal and the hilltop Amber Fort to the City Palace complex and the astronomical Jantar Mantar observatory, a UNESCO World Heritage Site. Wander through the bustling bazaars of Johari and Bapu markets for exquisite gems, block-printed fabrics, and handcrafted blue pottery, and savour the rich flavors of Rajasthani cuisine — from pyaaz ki kachori to laal maas. Jaipur's vibrant festivals, elaborate temple rituals, and warm Rajasthani hospitality add layer upon layer of richness to every visit. Key Highlights: Hawa Mahal, Amber Fort, City Palace, Jantar Mantar (UNESCO), Johari and Bapu markets, pyaaz ki kachori, laal maas, block printing."
+  },
+  {
+    "id": "destination_guide_rishikesh",
+    "type": "destination_guide",
+    "title": "Rishikesh Diaries: Yoga, Rivers, and Inner Peace",
+    "destination": "Uttarakhand (Rishikesh)",
+    "metadata": {
+      "category": "Destination Guide",
+      "state": "Uttarakhand",
+      "city": "Rishikesh",
+      "themes": ["Yoga", "Spiritual", "Adventure", "Nature", "Wellness"]
+    },
+    "content": "Destination Guide: Rishikesh, Uttarakhand — the Yoga Capital of the World. Rishikesh is a destination that cannot be experienced in a hurry. It is a place where history, culture, spirituality, and everyday life blend together on the banks of one of the world's most sacred rivers, creating an atmosphere of rare depth and authenticity. Known as the Yoga Capital of the World, Rishikesh draws seekers from across the globe to its ashrams, meditation centers, and riverside ghats, where the sound of the Ganga flowing through the Himalayan foothills creates a natural backdrop for inner stillness. Begin your day with a sunrise yoga session on the banks of the river, cross the iconic Laxman Jhula suspension bridge festooned with temple bells, and explore the vibrant cafés and bookshops of the Tapovan area. For those drawn to adventure, the Ganges offers some of India's most thrilling white-water rafting, and the surrounding hills are laced with trekking trails. Rishikesh is a place where the sacred and the adventurous coexist in perfect harmony. Key Highlights: Yoga and meditation ashrams, Laxman Jhula, Ganga riverside ghats, sunrise yoga, white-water rafting, Tapovan cafes, Himalayan trekking trails."
+  }
+]

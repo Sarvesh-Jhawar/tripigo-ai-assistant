@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+.pytest_cache/
+
+# Database
+chroma_db/
+
+# Frontend
+frontend-example/node_modules/
+frontend-example/dist/
+frontend-example/.vite/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# NOTE: .env is intentionally NOT ignored per user request
