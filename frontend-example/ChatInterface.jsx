@@ -23,7 +23,10 @@ export default function ChatInterface() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:8000/chat', {
+      const isDev = typeof window !== 'undefined' && (window.location.port === '5173' || window.location.port === '3000');
+      const apiUrl = isDev ? 'http://localhost:8000/chat' : '/chat';
+
+      const response = await fetch(apiUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: userMessage.content })
