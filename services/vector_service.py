@@ -3,12 +3,18 @@ Vector Service.
 Handles the generation of dense vector embeddings from raw text.
 It uses the SentenceTransformer library with a pre-trained HuggingFace model.
 """
+import os
+import torch
+
+# Restrict thread count and parallelism to prevent RAM spikes on 512MB containers
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+torch.set_num_threads(1)
+
 from sentence_transformers import SentenceTransformer
 
-# Initialize the embedding model.
-# BAAI/bge-small-en-v1.5 is chosen because it is highly efficient, fast, 
-# and provides excellent semantic representation for Retrieval tasks.
+# Initialize the lightweight embedding model.
 model = SentenceTransformer("BAAI/bge-small-en-v1.5")
+
 
 def embed_text(text: str) -> list[float]:
     """
