@@ -74,52 +74,55 @@ def generate_answer(query: str, contexts: list[str]) -> str:
     if not client:
         return "Error: GROQ_API_KEY not configured in .env file."
         
-    # Build the strict prompt containing the knowledge base and the user's question
+    # Build the strict prompt containing top 3 relevant context snippets (max 700 chars each)
     prompt = "Knowledge Base:\n"
-    for ctx in contexts:
-        prompt += f"{ctx}\n\n"
+    for ctx in contexts[:3]:
+        prompt += f"{ctx[:700]}\n\n"
     prompt += f"User Question: {query}\n"
     prompt += "Answer:"
-    
-    try:
-        # Request a chat completion from the Groq API
-        chat_completion = client.chat.completions.create(
-            messages=[
-                {
-                    "role": "system",
-                    "content": SYSTEM_PROMPT
-                },
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
-            # We use the LLaMA 3.1 8B Instant model because it is incredibly fast 
-            # and highly capable for RAG (Retrieval-Augmented Generation) tasks.
-            model="llama-3.1-8b-instant",
-            temperature=0.3, # Low temperature ensures the model remains factual and doesn't guess
-            max_tokens=1024, # Maximum length of the generated response
-        )
-        choice = chat_completion.choices[0]
-        
-        # Handle cases where the response hit the maximum token limit
-        if choice.finish_reason == 'length':
-            return "Error: The response was cut off because it exceeded the maximum token limit. Please try asking a more specific question."
-            
-        return choice.message.content
-        
-    # Comprehensive error handling to gracefully handle any API issues
-    except RateLimitError as e:
-        return f"Error: Rate limit exceeded. Please wait a moment before trying again. ({str(e)})"
-    except AuthenticationError as e:
-        return f"Error: Authentication failed. Please check if your GROQ_API_KEY is valid. ({str(e)})"
-    except APIConnectionError as e:
-        return f"Error: Could not connect to Groq API. Please check your internet connection. ({str(e)})"
-    except APITimeoutError as e:
-        return f"Error: The request to Groq API timed out. Please try again later. ({str(e)})"
-    except APIStatusError as e:
-        return f"Error: Groq API returned an error status code. ({str(e)})"
-    except GroqError as e:
-        return f"Error: An issue occurred with the Groq API. ({str(e)})"
-    except Exception as e:
-        return f"Error: An unexpected error occurred: {str(e)}"
+
+    # List of high-speed Groq models to attempt in order
+    target_models = [os.getenv("GROQ_MODEL", "groq/compound-mini"), "groq/compound"]
+
+    for model_name in target_models:
+        try:
+            chat_completion = client.chat.completions.create(
+                messages=[
+                    {
+                        "role": "system",
+                        "content": SYSTEM_PROMPT
+                    },
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ],
+                model=model_name,
+                temperature=0.3,
+                max_tokens=1024,
+            )
+            choice = chat_completion.choices[0]
+            if choice.finish_reason == 'length':
+                return "Error: The response was cut off because it exceeded the maximum token limit."
+            return choice.message.content
+        except APIStatusError as e:
+            if ("413" in str(e) or "request_too_large" in str(e)) and model_name != target_models[-1]:
+                continue
+            return f"Error: Groq API returned an error status code. ({str(e)})"
+        except RateLimitError as e:
+            return f"Error: Rate limit exceeded. Please wait a moment before trying again. ({str(e)})"
+        except AuthenticationError as e:
+            return f"Error: Authentication failed. Please check if your GROQ_API_KEY is valid. ({str(e)})"
+        except APIConnectionError as e:
+            return f"Error: Could not connect to Groq API. ({str(e)})"
+        except APITimeoutError as e:
+            return f"Error: The request to Groq API timed out. ({str(e)})"
+        except GroqError as e:
+            return f"Error: An issue occurred with the Groq API. ({str(e)})"
+        except Exception as e:
+            if model_name != target_models[-1]:
+                continue
+            return f"Error: An unexpected error occurred: {str(e)}"
+
+    return "Error: Could not generate response from Groq LLM models."
+

@@ -47,22 +47,30 @@ def startup_event():
     except Exception as e:
         print(f"Startup check failed: {e}")
 
-# Serve React static frontend files if built
+# Serve static HTML frontend or built React SPA
+static_path = os.path.join(os.path.dirname(__file__), "static")
 dist_path = os.path.join(os.path.dirname(__file__), "frontend-example", "dist")
-if os.path.exists(dist_path):
+
+if os.path.exists(static_path) and os.path.exists(os.path.join(static_path, "index.html")):
+    print(f"Mounting static frontend UI from: {static_path}")
+    app.mount("/static", StaticFiles(directory=static_path), name="static")
+    
+    @app.get("/")
+    async def serve_index():
+        return FileResponse(os.path.join(static_path, "index.html"))
+elif os.path.exists(dist_path):
     print(f"Mounting static frontend assets from: {dist_path}")
     app.mount("/assets", StaticFiles(directory=os.path.join(dist_path, "assets")), name="assets")
     
-    # Catch-all route to serve the React SPA index.html
     @app.get("/{catchall:path}")
     async def serve_spa(catchall: str):
-        # Keep API routes accessible
         if catchall.startswith("chat") or catchall.startswith("ingest") or catchall.startswith("health"):
             from fastapi import HTTPException
             raise HTTPException(status_code=404, detail="Not Found")
         return FileResponse(os.path.join(dist_path, "index.html"))
 else:
-    print(f"Frontend build folder not found at {dist_path}. Running backend-only mode.")
+    print("Frontend build folder not found. Running backend-only mode.")
+
 
 if __name__ == "__main__":
     import uvicorn

@@ -1,0 +1,13 @@
+# Render Blueprint for Tripigo Tales Travel Assistant
+services:
+  - type: web
+    name: tripigo-chatbot
+    env: docker
+    plan: free
+    region: singapore # Change to your preferred region: oregon, frankfurt, singapore, ohio
+    healthCheckPath: /health
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false # Prompts for value during deployment in Render UI
+      - key: PYTHONUNBUFFERED
+        value: "1"

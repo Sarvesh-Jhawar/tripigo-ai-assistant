@@ -19,4 +19,9 @@ frontend-example/.vite/
 .DS_Store
 Thumbs.db
 
-# NOTE: .env is intentionally NOT ignored per user request
+# Environment variables & secrets
+.env
+
+# Output tests
+sample_outputs.txt
+

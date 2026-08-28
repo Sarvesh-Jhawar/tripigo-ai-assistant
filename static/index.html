@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripigo Tales - AI Travel Assistant</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Marked.js for Markdown parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <style>
+        :root {
+            --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%);
+            --panel-bg: rgba(30, 41, 59, 0.7);
+            --panel-border: rgba(255, 255, 255, 0.1);
+            --accent-primary: #06b6d4;
+            --accent-gradient: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+            --user-bubble: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            --bot-bubble: rgba(30, 41, 59, 0.85);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --shadow-glow: 0 8px 32px 0 rgba(6, 182, 212, 0.15);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        body {
+            background: var(--bg-gradient);
+            color: var(--text-primary);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            overflow: hidden;
+        }
+
+        .app-container {
+            width: 100%;
+            max-width: 1100px;
+            height: 92vh;
+            background: var(--panel-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--panel-border);
+            border-radius: 24px;
+            box-shadow: var(--shadow-glow);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Top Header */
+        header {
+            padding: 1.25rem 2rem;
+            background: rgba(15, 23, 42, 0.6);
+            border-bottom: 1px solid var(--panel-border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
+        }
+
+        .brand-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .brand-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--accent-gradient);
+            border-radius: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            color: white;
+            box-shadow: 0 4px 14px rgba(6, 182, 212, 0.4);
+        }
+
+        .brand-title h1 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, #ffffff, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .brand-title p {
+            font-size: 0.825rem;
+            color: var(--text-secondary);
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .connect-btn {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid var(--panel-border);
+            color: var(--text-primary);
+            padding: 0.45rem 0.9rem;
+            border-radius: 14px;
+            font-size: 0.825rem;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            transition: all 0.2s ease;
+        }
+
+        .connect-btn:hover {
+            background: rgba(6, 182, 212, 0.2);
+            border-color: var(--accent-primary);
+            transform: translateY(-1px);
+        }
+
+        .connect-btn:disabled {
+            opacity: 0.6;
+            cursor: wait;
+            transform: none;
+        }
+
+        .status-badge {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.4rem 0.85rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .status-badge.connected {
+            background: rgba(16, 185, 129, 0.15);
+            border: 1px solid rgba(16, 185, 129, 0.4);
+            color: #34d399;
+        }
+
+        .status-badge.connected .status-dot {
+            background-color: #10b981;
+            box-shadow: 0 0 10px #10b981;
+        }
+
+        .status-badge.connecting {
+            background: rgba(245, 158, 11, 0.15);
+            border: 1px solid rgba(245, 158, 11, 0.4);
+            color: #fbbf24;
+        }
+
+        .status-badge.connecting .status-dot {
+            background-color: #f59e0b;
+            box-shadow: 0 0 10px #f59e0b;
+        }
+
+        .status-badge.offline {
+            background: rgba(239, 68, 68, 0.15);
+            border: 1px solid rgba(239, 68, 68, 0.4);
+            color: #f87171;
+        }
+
+        .status-badge.offline .status-dot {
+            background-color: #ef4444;
+            box-shadow: 0 0 10px #ef4444;
+            animation: none;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(0.95); opacity: 0.8; }
+            50% { transform: scale(1.2); opacity: 1; }
+            100% { transform: scale(0.95); opacity: 0.8; }
+        }
+
+        .server-notice {
+            padding: 0.65rem 1.5rem;
+            font-size: 0.825rem;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            transition: all 0.3s ease;
+            border-bottom: 1px solid var(--panel-border);
+        }
+
+        .server-notice.warning {
+            background: rgba(245, 158, 11, 0.15);
+            color: #fbbf24;
+        }
+
+        .server-notice.success {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+        }
+
+        .server-notice.error {
+            background: rgba(239, 68, 68, 0.15);
+            color: #f87171;
+        }
+
+        .server-notice.hidden {
+            display: none;
+        }
+
+        /* Chat Body */
+        .chat-body {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            scroll-behavior: smooth;
+        }
+
+        .chat-body::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .chat-body::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+        }
+
+        /* Welcome Card */
+        .welcome-card {
+            background: rgba(15, 23, 42, 0.5);
+            border: 1px dashed rgba(255, 255, 255, 0.15);
+            border-radius: 18px;
+            padding: 1.5rem;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .welcome-card h2 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #38bdf8;
+        }
+
+        .welcome-card p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .suggestion-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            justify-content: center;
+        }
+
+        .chip {
+            background: rgba(30, 41, 59, 0.9);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--text-primary);
+            padding: 0.45rem 0.9rem;
+            border-radius: 20px;
+            font-size: 0.825rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .chip:hover {
+            background: var(--accent-gradient);
+            border-color: transparent;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);
+        }
+
+        /* Message Bubbles */
+        .message-row {
+            display: flex;
+            gap: 0.85rem;
+            max-width: 85%;
+            animation: fadeIn 0.3s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .message-row.user {
+            align-self: flex-end;
+            flex-direction: row-reverse;
+        }
+
+        .message-row.bot {
+            align-self: flex-start;
+        }
+
+        .avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.95rem;
+            flex-shrink: 0;
+        }
+
+        .user .avatar {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .bot .avatar {
+            background: var(--accent-gradient);
+            color: white;
+            box-shadow: 0 2px 8px rgba(6, 182, 212, 0.4);
+        }
+
+        .message-content {
+            padding: 1rem 1.25rem;
+            border-radius: 18px;
+            font-size: 0.925rem;
+            line-height: 1.6;
+        }
+
+        .user .message-content {
+            background: var(--user-bubble);
+            color: white;
+            border-bottom-right-radius: 4px;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+        }
+
+        .bot .message-content {
+            background: var(--bot-bubble);
+            border: 1px solid var(--panel-border);
+            color: var(--text-primary);
+            border-bottom-left-radius: 4px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Markdown Formatting inside bot messages */
+        .bot .message-content h1, .bot .message-content h2, .bot .message-content h3 {
+            margin-top: 0.6rem;
+            margin-bottom: 0.4rem;
+            color: #38bdf8;
+        }
+
+        .bot .message-content p {
+            margin-bottom: 0.6rem;
+        }
+
+        .bot .message-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .bot .message-content ul, .bot .message-content ol {
+            margin-left: 1.2rem;
+            margin-bottom: 0.6rem;
+        }
+
+        .bot .message-content li {
+            margin-bottom: 0.3rem;
+        }
+
+        .bot .message-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0.8rem 0;
+            background: rgba(15, 23, 42, 0.6);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .bot .message-content th, .bot .message-content td {
+            padding: 0.6rem 0.8rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: left;
+            font-size: 0.85rem;
+        }
+
+        .bot .message-content th {
+            background: rgba(6, 182, 212, 0.2);
+            color: #38bdf8;
+            font-weight: 600;
+        }
+
+        /* Source badges */
+        .sources-container {
+            margin-top: 0.75rem;
+            padding-top: 0.6rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            align-items: center;
+        }
+
+        .sources-title {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-right: 0.3rem;
+        }
+
+        .source-tag {
+            background: rgba(6, 182, 212, 0.15);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+            color: #38bdf8;
+            padding: 0.2rem 0.5rem;
+            border-radius: 6px;
+            font-size: 0.725rem;
+        }
+
+        /* Loading Dots */
+        .typing-indicator {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            padding: 0.5rem 0.25rem;
+        }
+
+        .typing-dot {
+            width: 7px;
+            height: 7px;
+            background-color: var(--accent-primary);
+            border-radius: 50%;
+            animation: bounce 1.4s infinite ease-in-out both;
+        }
+
+        .typing-dot:nth-child(1) { animation-delay: -0.32s; }
+        .typing-dot:nth-child(2) { animation-delay: -0.16s; }
+
+        @keyframes bounce {
+            0%, 80%, 100% { transform: scale(0); }
+            40% { transform: scale(1.0); }
+        }
+
+        /* Input Bar */
+        .input-area {
+            padding: 1.25rem 2rem;
+            background: rgba(15, 23, 42, 0.8);
+            border-top: 1px solid var(--panel-border);
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+        }
+
+        .input-wrapper {
+            flex: 1;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .chat-input {
+            width: 100%;
+            background: rgba(30, 41, 59, 0.9);
+            border: 1px solid var(--panel-border);
+            border-radius: 14px;
+            padding: 0.9rem 1.25rem;
+            color: white;
+            font-size: 0.95rem;
+            outline: none;
+            transition: all 0.2s ease;
+        }
+
+        .chat-input:focus {
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 16px rgba(6, 182, 212, 0.25);
+        }
+
+        .send-btn {
+            background: var(--accent-gradient);
+            color: white;
+            border: none;
+            width: 48px;
+            height: 48px;
+            border-radius: 14px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.1rem;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 14px rgba(6, 182, 212, 0.35);
+        }
+
+        .send-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(6, 182, 212, 0.5);
+        }
+
+        .send-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            body { padding: 0; }
+            .app-container { height: 100vh; border-radius: 0; border: none; }
+            header { padding: 1rem; flex-direction: column; gap: 0.75rem; align-items: flex-start; }
+            .header-actions { width: 100%; justify-content: space-between; }
+            .chat-body { padding: 1rem; }
+            .input-area { padding: 1rem; }
+            .message-row { max-width: 95%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="app-container">
+    <!-- Header -->
+    <header>
+        <div class="brand-info">
+            <div class="brand-icon">
+                <i class="fa-solid fa-compass"></i>
+            </div>
+            <div class="brand-title">
+                <h1>Tripigo Tales</h1>
+                <p>AI-Powered Travel Assistant</p>
+            </div>
+        </div>
+        <div class="header-actions">
+            <button id="connectBtn" class="connect-btn" onclick="pingServer(true)" title="Ping Backend Server">
+                <i class="fa-solid fa-plug" id="connectIcon"></i>
+                <span id="connectText">Connect Server</span>
+            </button>
+            <div class="status-badge connecting" id="statusBadge">
+                <div class="status-dot" id="statusDot"></div>
+                <span id="statusText">Checking...</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Server Status Notice Banner -->
+    <div id="serverNotice" class="server-notice warning">
+        <i class="fa-solid fa-cloud-bolt"></i>
+        <span id="noticeText">Connecting to server... Cold start on Render free tier takes ~30s if waking up.</span>
+    </div>
+
+    <!-- Chat Body -->
+    <div class="chat-body" id="chatBody">
+        <div class="welcome-card">
+            <h2>✨ Welcome to Tripigo Tales!</h2>
+            <p>I can help you explore travel packages, compare prices, check itineraries, and give recommendations from our exclusive database.</p>
+            <div class="suggestion-chips">
+                <div class="chip" onclick="sendSuggested('Suggest honeymoon packages under 20000')">
+                    <i class="fa-solid fa-heart"></i> Honeymoon < ₹20k
+                </div>
+                <div class="chip" onclick="sendSuggested('Do you have any trips to Ladakh specifically for 7 days?')">
+                    <i class="fa-solid fa-mountain"></i> 7-Day Ladakh Trip
+                </div>
+                <div class="chip" onclick="sendSuggested('What are your best family packages in Kerala?')">
+                    <i class="fa-solid fa-umbrella-beach"></i> Kerala Family Package
+                </div>
+                <div class="chip" onclick="sendSuggested('How do I book a tour and what is your contact information?')">
+                    <i class="fa-solid fa-phone"></i> Contact & Booking Info
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Input Area -->
+    <div class="input-area">
+        <div class="input-wrapper">
+            <input type="text" id="userInput" class="chat-input" placeholder="Ask about tour packages, destinations, budgets..." onkeydown="handleKeyDown(event)">
+        </div>
+        <button id="sendBtn" class="send-btn" onclick="sendMessage()">
+            <i class="fa-solid fa-paper-plane"></i>
+        </button>
+    </div>
+</div>
+
+<script>
+    const chatBody = document.getElementById('chatBody');
+    const userInput = document.getElementById('userInput');
+    const sendBtn = document.getElementById('sendBtn');
+    
+    let isServerReady = false;
+    let pingInterval = null;
+
+    async function pingServer(userTriggered = false) {
+        const statusBadge = document.getElementById('statusBadge');
+        const statusText = document.getElementById('statusText');
+        const connectBtn = document.getElementById('connectBtn');
+        const connectIcon = document.getElementById('connectIcon');
+        const connectText = document.getElementById('connectText');
+        const serverNotice = document.getElementById('serverNotice');
+
+        statusBadge.className = 'status-badge connecting';
+        statusText.innerText = 'Waking Server...';
+        connectBtn.disabled = true;
+        connectIcon.className = 'fa-solid fa-spinner fa-spin';
+        connectText.innerText = 'Connecting...';
+
+        if (userTriggered || !isServerReady) {
+            serverNotice.className = 'server-notice warning';
+            serverNotice.innerHTML = '<i class="fa-solid fa-cloud-bolt"></i> <span>Connecting to server... Cold start on Render free tier takes ~30s if waking up.</span>';
+        }
+
+        try {
+            const healthEndpoint = window.location.protocol === 'file:' ? 'http://127.0.0.1:8000/health' : '/health';
+            const res = await fetch(healthEndpoint, { method: 'GET', cache: 'no-store' });
+            
+            if (res.ok) {
+                const data = await res.json();
+                if (data.status === 'healthy') {
+                    isServerReady = true;
+                    statusBadge.className = 'status-badge connected';
+                    statusText.innerText = 'Server Ready';
+                    connectBtn.disabled = false;
+                    connectIcon.className = 'fa-solid fa-circle-check';
+                    connectText.innerText = 'Connected';
+
+                    serverNotice.className = 'server-notice success';
+                    serverNotice.innerHTML = '<i class="fa-solid fa-circle-check"></i> <span>Server connected & ready! You can now send multiple chat requests.</span>';
+                    
+                    // Auto-hide notice after 4 seconds
+                    setTimeout(() => {
+                        serverNotice.className = 'server-notice hidden';
+                    }, 4000);
+
+                    if (pingInterval) {
+                        clearInterval(pingInterval);
+                        pingInterval = null;
+                    }
+                    return true;
+                }
+            }
+            throw new Error('Server non-healthy status');
+        } catch (e) {
+            isServerReady = false;
+            statusBadge.className = 'status-badge offline';
+            statusText.innerText = 'Server Sleeping';
+            connectBtn.disabled = false;
+            connectIcon.className = 'fa-solid fa-bolt';
+            connectText.innerText = 'Connect / Wake';
+
+            serverNotice.className = 'server-notice error';
+            serverNotice.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> <span>Server is waking up or offline. Click <b>"Connect / Wake"</b> to retry.</span>';
+            
+            // Auto retry every 4s until connected
+            if (!pingInterval) {
+                pingInterval = setInterval(() => pingServer(false), 4000);
+            }
+            return false;
+        }
+    }
+
+    function handleKeyDown(e) {
+        if (e.key === 'Enter') {
+            sendMessage();
+        }
+    }
+
+    function sendSuggested(text) {
+        userInput.value = text;
+        sendMessage();
+    }
+
+    async function sendMessage() {
+        const message = userInput.value.trim();
+        if (!message) return;
+
+        // Append User Message
+        appendMessage('user', message);
+        userInput.value = '';
+        sendBtn.disabled = true;
+
+        // Append Loading Indicator
+        const loadingId = appendLoading();
+
+        try {
+            const endpoint = window.location.protocol === 'file:' ? 'http://127.0.0.1:8000/chat' : '/chat';
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: message })
+            });
+
+            removeLoading(loadingId);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            appendMessage('bot', data.answer, data.sources);
+
+            // Update connection state to ready
+            isServerReady = true;
+            document.getElementById('statusBadge').className = 'status-badge connected';
+            document.getElementById('statusText').innerText = 'Server Ready';
+
+        } catch (error) {
+            removeLoading(loadingId);
+            console.error('API Error:', error);
+            appendMessage('bot', `⚠️ Could not reach the AI server. Click **"Connect / Wake"** in the top right to verify server connection. (${error.message})`);
+        } finally {
+            sendBtn.disabled = false;
+            userInput.focus();
+        }
+    }
+
+    function appendMessage(sender, text, sources = []) {
+        const messageRow = document.createElement('div');
+        messageRow.className = `message-row ${sender}`;
+
+        const avatar = document.createElement('div');
+        avatar.className = 'avatar';
+        avatar.innerHTML = sender === 'user' ? '<i class="fa-solid fa-user"></i>' : '<i class="fa-solid fa-robot"></i>';
+
+        const content = document.createElement('div');
+        content.className = 'message-content';
+
+        if (sender === 'bot') {
+            content.innerHTML = marked.parse(text);
+
+            if (sources && sources.length > 0) {
+                const sourcesDiv = document.createElement('div');
+                sourcesDiv.className = 'sources-container';
+                
+                const titleSpan = document.createElement('span');
+                titleSpan.className = 'sources-title';
+                titleSpan.innerText = 'Sources:';
+                sourcesDiv.appendChild(titleSpan);
+
+                sources.forEach(src => {
+                    const tag = document.createElement('span');
+                    tag.className = 'source-tag';
+                    tag.innerText = src;
+                    sourcesDiv.appendChild(tag);
+                });
+
+                content.appendChild(sourcesDiv);
+            }
+        } else {
+            content.innerText = text;
+        }
+
+        messageRow.appendChild(avatar);
+        messageRow.appendChild(content);
+
+        chatBody.appendChild(messageRow);
+        chatBody.scrollTop = chatBody.scrollHeight;
+    }
+
+    function appendLoading() {
+        const id = 'loading-' + Date.now();
+        const messageRow = document.createElement('div');
+        messageRow.className = 'message-row bot';
+        messageRow.id = id;
+
+        const avatar = document.createElement('div');
+        avatar.className = 'avatar';
+        avatar.innerHTML = '<i class="fa-solid fa-robot"></i>';
+
+        const content = document.createElement('div');
+        content.className = 'message-content';
+
+        const typing = document.createElement('div');
+        typing.className = 'typing-indicator';
+        typing.innerHTML = '<div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div>';
+
+        content.appendChild(typing);
+        messageRow.appendChild(avatar);
+        messageRow.appendChild(content);
+
+        chatBody.appendChild(messageRow);
+        chatBody.scrollTop = chatBody.scrollHeight;
+        return id;
+    }
+
+    function removeLoading(id) {
+        const el = document.getElementById(id);
+        if (el) el.remove();
+    }
+
+    // Auto ping server on load
+    window.addEventListener('DOMContentLoaded', () => {
+        pingServer(false);
+    });
+</script>
+
+</body>
+</html>

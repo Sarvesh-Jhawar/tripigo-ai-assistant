@@ -10,19 +10,22 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy backend files and data
+# Copy backend files, data, and static UI
 COPY app.py .
 COPY routes/ ./routes/
 COPY services/ ./services/
 COPY data/ ./data/
+COPY static/ ./static/
 
-# Expose port 7860 (Hugging Face Spaces default container port)
-EXPOSE 7860
+
+# Expose port (Render sets $PORT dynamically, default 10000)
+EXPOSE 10000
 
 # Set Python behavior variables
 ENV HOST=0.0.0.0
-ENV PORT=7860
+ENV PORT=10000
 ENV PYTHONUNBUFFERED=1
 
-# Launch the FastAPI app using Uvicorn on port 7860
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7860"]
+# Launch the FastAPI app using Uvicorn with dynamic port binding
+CMD ["sh", "-c", "uvicorn app:app --host 0.0.0.0 --port ${PORT:-10000}"]
+
